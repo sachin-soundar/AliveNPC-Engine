@@ -1,0 +1,194 @@
+{
+  "houses": [
+    {
+      "name": "House Stark",
+      "region": "The North",
+      "sigil": "Direwolf",
+      "words": "Winter Is Coming",
+      "traits": {
+        "honor": 85,
+        "loyalty": 90,
+        "intelligence": 70,
+        "emotional_intelligence": 75,
+        "evil": 15,
+        "selflessness": 80,
+        "ambition": 40,
+        "combat_skill": 75,
+        "political_cunning": 50,
+        "religious_devotion": 60
+      },
+      "description": "The noble lords of Winterfell, known for their honor and duty."
+    },
+    {
+      "name": "House Lannister",
+      "region": "The Westerlands",
+      "sigil": "Lion",
+      "words": "Hear Me Roar!",
+      "traits": {
+        "honor": 40,
+        "loyalty": 70,
+        "intelligence": 80,
+        "emotional_intelligence": 85,
+        "evil": 60,
+        "selflessness": 30,
+        "ambition": 90,
+        "combat_skill": 70,
+        "political_cunning": 85,
+        "religious_devotion": 45
+      },
+      "description": "The wealthy and powerful lords of Casterly Rock, known for their cunning and ambition."
+    },
+    {
+      "name": "House Baratheon",
+      "region": "The Stormlands",
+      "sigil": "Stag",
+      "words": "Ours Is the Fury",
+      "traits": {
+        "honor": 65,
+        "loyalty": 60,
+        "intelligence": 55,
+        "emotional_intelligence": 60,
+        "evil": 40,
+        "selflessness": 50,
+        "ambition": 75,
+        "combat_skill": 80,
+        "political_cunning": 65,
+        "religious_devotion": 50
+      },
+      "description": "The storm lords of Dragonstone and Storm's End, known for their strength and fury."
+    },
+    {
+      "name": "House Targaryen",
+      "region": "Exiled to Essos",
+      "sigil": "Three-headed Dragon",
+      "words": "Fire and Blood",
+      "traits": {
+        "honor": 60,
+        "loyalty": 85,
+        "intelligence": 75,
+        "emotional_intelligence": 70,
+        "evil": 50,
+        "selflessness": 45,
+        "ambition": 95,
+        "combat_skill": 80,
+        "political_cunning": 80,
+        "religious_devotion": 40
+      },
+      "description": "The exiled dragon lords seeking to reclaim the Iron Throne."
+    },
+    {
+      "name": "House Greyjoy",
+      "region": "The Iron Islands",
+      "sigil": "Kraken",
+      "words": "We Do Not Sow",
+      "traits": {
+        "honor": 50,
+        "loyalty": 75,
+        "intelligence": 65,
+        "emotional_intelligence": 60,
+        "evil": 55,
+        "selflessness": 35,
+        "ambition": 80,
+        "combat_skill": 70,
+        "political_cunning": 70,
+        "religious_devotion": 45
+      },
+      "description": "The sea lords of the Iron Islands, known for their independence and raiding."
+    },
+    {
+      "name": "House Tully",
+      "region": "The Riverlands",
+      "sigil": "Trout",
+      "words": "Family, Duty, Honor",
+      "traits": {
+        "honor": 70,
+        "loyalty": 75,
+        "intelligence": 65,
+        "emotional_intelligence": 70,
+        "evil": 20,
+        "selflessness": 65,
+        "ambition": 50,
+        "combat_skill": 60,
+        "political_cunning": 60,
+        "religious_devotion": 55
+      },
+      "description": "The river lords of Riverrun, known for their family bonds and strategic position."
+    },
+    {
+      "name": "House Tyrell",
+      "region": "The Reach",
+      "sigil": "Rose",
+      "words": "Growing Strong",
+      "traits": {
+        "honor": 60,
+        "loyalty": 65,
+        "intelligence": 70,
+        "emotional_intelligence": 75,
+        "evil": 30,
+        "selflessness": 55,
+        "ambition": 70,
+        "combat_skill": 55,
+        "political_cunning": 75,
+        "religious_devotion": 60
+      },
+      "description": "The fertile lords of Highgarden, known for their wealth and political maneuvering."
+    },
+    {
+      "name": "House Martell",
+      "region": "Dorne",
+      "sigil": "Sun pierced by a spear",
+      "words": "Unbowed, Unbent, Unbroken",
+      "traits": {
+        "honor": 65,
+        "loyalty": 80,
+        "intelligence": 75,
+        "emotional_intelligence": 80,
+        "evil": 40,
+        "selflessness": 60,
+        "ambition": 75,
+        "combat_skill": 65,
+        "political_cunning": 80,
+        "religious_devotion": 50
+      },
+      "description": "The proud lords of Sunspear, known for their passion and independence."
+    },
+    {
+      "name": "House Arryn",
+      "region": "The Vale",
+      "sigil": "Falcon and Moon",
+      "words": "As High as Honor",
+      "traits": {
+        "honor": 75,
+        "loyalty": 70,
+        "intelligence": 70,
+        "emotional_intelligence": 65,
+        "evil": 25,
+        "selflessness": 60,
+        "ambition": 55,
+        "combat_skill": 60,
+        "political_cunning": 65,
+        "religious_devotion": 65
+      },
+      "description": "The mountain lords of the Eyrie, known for their isolation and honor."
+    },
+    {
+      "name": "Dothraki Clans",
+      "region": "The Dothraki Sea",
+      "sigil": "Horsehead",
+      "words": "None (but they live by strength and tradition)",
+      "traits": {
+        "honor": 55,
+        "loyalty": 80,
+        "intelligence": 50,
+        "emotional_intelligence": 60,
+        "evil": 45,
+        "selflessness": 40,
+        "ambition": 65,
+        "combat_skill": 90,
+        "political_cunning": 55,
+        "religious_devotion": 70
+      },
+      "description": "The nomadic horse lords of the great grass sea, known for their warrior culture."
+    }
+  ]
+}

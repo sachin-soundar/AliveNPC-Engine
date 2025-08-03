@@ -1,0 +1,454 @@
+{
+  "world_events": [
+    {
+      "event_id": 1,
+      "title": "Lord Jon Arryn of House Arryn dies mysteriously",
+      "description": "The Hand of the King dies suddenly, creating a power vacuum in King's Landing",
+      "political_context": {
+        "house_stark": "Ned Stark of House Stark reluctantly accepts Hand position, honor compels duty to realm",
+        "house_lannister": "Tywin Lannister of House Lannister sees opportunity to consolidate power through Cersei's influence",
+        "house_baratheon": "Robert Baratheon of House Baratheon loses trusted advisor, becomes more dependent on queen",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen remains in exile, unaffected by Westeros politics",
+        "house_greyjoy": "Balon Greyjoy of House Greyjoy watches mainland weakness from Iron Islands",
+        "house_tully": "Catelyn Stark née Tully maintains family ties, supports Stark involvement",
+        "house_tyrell": "Mace Tyrell of House Tyrell remains neutral, focuses on Reach prosperity",
+        "house_martell": "Doran Martell of House Martell continues patient planning in Dorne",
+        "house_arryn": "Lysa Arryn of House Arryn becomes paranoid regent, isolates Vale from realm",
+        "dothraki_clans": "Khal Drogo leads Dothraki clans, unaware of Westeros political shifts"
+      },
+      "cascading_effects": ["Power vacuum in King's Landing", "Stark family travels south", "Investigation into Jon Arryn's death begins"]
+    },
+    {
+      "event_id": 2,
+      "title": "Bran Stark of House Stark pushed from tower by Jaime Lannister",
+      "description": "Young Bran discovers Cersei and Jaime's incestuous relationship, leading to his attempted murder",
+      "political_context": {
+        "house_stark": "Catelyn Stark of House Stark suspects Lannister involvement, family honor demands justice",
+        "house_lannister": "Jaime Lannister of House Lannister protects family secret through violence, pragmatism over honor",
+        "house_baratheon": "Robert Baratheon of House Baratheon remains unaware of wife's betrayal",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen begins marriage to Khal Drogo",
+        "house_greyjoy": "Theon Greyjoy of House Greyjoy torn between Stark loyalty and Iron Islands heritage",
+        "house_tully": "Catelyn Stark née Tully's maternal instincts drive investigation into attack",
+        "house_tyrell": "Margaery Tyrell of House Tyrell remains focused on advantageous marriages",
+        "house_martell": "Oberyn Martell of House Martell continues harboring hatred for Lannisters",
+        "house_arryn": "Lysa Arryn of House Arryn secretly aids Lannister deception",
+        "dothraki_clans": "Khal Drogo's khalasar prepares for potential Westeros invasion"
+      },
+      "cascading_effects": ["Stark-Lannister tensions escalate", "Catelyn begins investigation", "Bran's magical abilities awaken"]
+    },
+    {
+      "event_id": 3,
+      "title": "Catelyn Stark of House Stark arrests Tyrion Lannister",
+      "description": "Acting on false evidence, Catelyn takes Tyrion prisoner at the crossroads inn",
+      "political_context": {
+        "house_stark": "Catelyn Stark of House Stark acts on maternal instinct, honor demands justice for son",
+        "house_lannister": "Tywin Lannister of House Lannister mobilizes armies, family loyalty trumps realm peace",
+        "house_baratheon": "Robert Baratheon of House Baratheon caught between friend and queen's family",
+        "house_targaryen": "Viserys Targaryen of House Targaryen grows desperate for crown",
+        "house_greyjoy": "Balon Greyjoy of House Greyjoy sees mainland conflict as opportunity",
+        "house_tully": "Edmure Tully of House Tully supports sister's actions, family loyalty paramount",
+        "house_tyrell": "Olenna Tyrell of House Tyrell observes political chaos with calculating interest",
+        "house_martell": "Doran Martell of House Martell watches Lannister troubles with satisfaction",
+        "house_arryn": "Lysa Arryn of House Arryn reveals her role in Jon Arryn's murder",
+        "dothraki_clans": "Khal Drogo's warriors respect Daenerys's growing strength"
+      },
+      "cascading_effects": ["Lannister armies mobilize", "Riverlands conflict begins", "Tyrion's trial by combat"]
+    },
+    {
+      "event_id": 4,
+      "title": "King Robert Baratheon of House Baratheon dies from hunting accident",
+      "description": "The king dies from boar wounds, leaving succession crisis between his 'sons'",
+      "political_context": {
+        "house_stark": "Ned Stark of House Stark discovers truth about royal children's parentage",
+        "house_lannister": "Cersei Lannister of House Lannister seizes power through son Joffrey",
+        "house_baratheon": "Stannis Baratheon and Renly Baratheon both claim throne as rightful heirs",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen gains dragon eggs as wedding gift",
+        "house_greyjoy": "Balon Greyjoy of House Greyjoy prepares for independence during chaos",
+        "house_tully": "Catelyn Stark née Tully fears for family safety in capital",
+        "house_tyrell": "Renly Baratheon of House Baratheon courts Tyrell support through Margaery",
+        "house_martell": "Doran Martell of House Martell sees opportunity in Baratheon weakness",
+        "house_arryn": "Robin Arryn of House Arryn remains isolated under mother's protection",
+        "dothraki_clans": "Khal Drogo's khalasar grows stronger under Daenerys's influence"
+      },
+      "cascading_effects": ["Succession crisis begins", "Multiple claimants emerge", "Ned Stark's investigation intensifies"]
+    },
+    {
+      "event_id": 5,
+      "title": "Lord Ned Stark of House Stark executed by King Joffrey Baratheon",
+      "description": "The honorable Lord of Winterfell is beheaded for treason after discovering royal bastards",
+      "political_context": {
+        "house_stark": "Robb Stark of House Stark declares war, northern honor demands vengeance",
+        "house_lannister": "Tywin Lannister of House Lannister gains tactical advantage but creates lasting enemies",
+        "house_baratheon": "Stannis Baratheon and Renly Baratheon unite against Lannister usurpation",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen sees opportunity in Westeros chaos",
+        "house_greyjoy": "Balon Greyjoy of House Greyjoy declares independence from Iron Throne",
+        "house_tully": "Catelyn Stark née Tully supports son's war, family loyalty over peace",
+        "house_tyrell": "Mace Tyrell of House Tyrell remains neutral, awaiting advantageous alliance",
+        "house_martell": "Oberyn Martell of House Martell sees Lannister brutality as expected",
+        "house_arryn": "Lysa Arryn of House Arryn refuses to aid Stark cause despite family ties",
+        "dothraki_clans": "Khal Drogo's death leaves Daenerys vulnerable among hostile khals"
+      },
+      "cascading_effects": ["War of Five Kings begins", "Northern independence movement", "Stark children scattered"]
+    },
+    {
+      "event_id": 6,
+      "title": "Khal Drogo of the Dothraki dies, Daenerys Targaryen hatches dragons",
+      "description": "The great khal dies from infected wound, Daenerys emerges from funeral pyre with three dragons",
+      "political_context": {
+        "house_stark": "Robb Stark of House Stark continues war against Lannisters",
+        "house_lannister": "Tywin Lannister of House Lannister focuses on immediate threats, ignores distant Targaryen",
+        "house_baratheon": "Stannis Baratheon of House Baratheon gains Melisandre's magical support",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen becomes Mother of Dragons, magical power returns",
+        "house_greyjoy": "Balon Greyjoy of House Greyjoy raids western coast during mainland war",
+        "house_tully": "Catelyn Stark née Tully grieves for husband while supporting son's war",
+        "house_tyrell": "Margaery Tyrell of House Tyrell marries Renly Baratheon for crown",
+        "house_martell": "Doran Martell of House Martell secretly negotiates with Targaryens",
+        "house_arryn": "Lysa Arryn of House Arryn maintains Vale neutrality",
+        "dothraki_clans": "Dothraki khals abandon Daenerys, consider her weak without khal"
+      },
+      "cascading_effects": ["Dragons return to world", "Daenerys begins conquest of Slaver's Bay", "Magic strengthens globally"]
+    },
+    {
+      "event_id": 7,
+      "title": "Renly Baratheon of House Baratheon assassinated by shadow creature",
+      "description": "Stannis's magical ally eliminates his brother, consolidating Baratheon claim",
+      "political_context": {
+        "house_stark": "Catelyn Stark of House Stark witnesses supernatural murder, questions alliances",
+        "house_lannister": "Cersei Lannister of House Lannister benefits from enemy elimination",
+        "house_baratheon": "Stannis Baratheon of House Baratheon gains brother's army but loses honor",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen conquers Qarth with dragon power",
+        "house_greyjoy": "Theon Greyjoy of House Greyjoy betrays Starks, captures Winterfell",
+        "house_tully": "Edmure Tully of House Tully defends Riverlands against Lannister forces",
+        "house_tyrell": "Margaery Tyrell of House Tyrell becomes widow, seeks new royal marriage",
+        "house_martell": "Doran Martell of House Martell continues patient planning",
+        "house_arryn": "Lysa Arryn of House Arryn remains isolated in Eyrie",
+        "dothraki_clans": "Dothraki bloodriders serve Daenerys despite traditional customs"
+      },
+      "cascading_effects": ["Tyrell forces join Lannisters", "Stannis marches on King's Landing", "Magic becomes accepted warfare tool"]
+    },
+    {
+      "event_id": 8,
+      "title": "Battle of Blackwater Bay - Stannis Baratheon defeated",
+      "description": "Tyrion Lannister's wildfire defense and Tyrell-Lannister alliance crushes Stannis's fleet",
+      "political_context": {
+        "house_stark": "Robb Stark of House Stark loses potential ally against Lannisters",
+        "house_lannister": "Tyrion Lannister of House Lannister proves tactical genius, saves capital",
+        "house_baratheon": "Stannis Baratheon of House Baratheon retreats to Dragonstone, claims weakened",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen liberates Slaver's Bay cities",
+        "house_greyjoy": "Balon Greyjoy of House Greyjoy controls northern coastline",
+        "house_tully": "Catelyn Stark née Tully releases Jaime Lannister for daughters",
+        "house_tyrell": "Mace Tyrell of House Tyrell gains significant influence in capital",
+        "house_martell": "Doran Martell of House Martell watches Baratheon defeat with interest",
+        "house_arryn": "Lysa Arryn of House Arryn maintains Vale isolation",
+        "dothraki_clans": "Dothraki warriors adapt to siege warfare under Daenerys"
+      },
+      "cascading_effects": ["Lannister-Tyrell alliance solidified", "Stannis seeks new allies", "Wildfire's power demonstrated"]
+    },
+    {
+      "event_id": 9,
+      "title": "Red Wedding - Robb Stark of House Stark and Catelyn Stark murdered",
+      "description": "Walder Frey and Roose Bolton betray Starks at Edmure's wedding, ending Northern rebellion",
+      "political_context": {
+        "house_stark": "Stark power collapses, Bran Stark and Rickon Stark presumed dead",
+        "house_lannister": "Tywin Lannister of House Lannister orchestrates victory through treachery",
+        "house_baratheon": "Stannis Baratheon of House Baratheon loses potential northern allies",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen rules Meereen, faces insurgency",
+        "house_greyjoy": "Balon Greyjoy of House Greyjoy maintains Iron Islands independence",
+        "house_tully": "Edmure Tully of House Tully becomes prisoner, Riverlands occupied",
+        "house_tyrell": "Margaery Tyrell of House Tyrell marries Joffrey Baratheon",
+        "house_martell": "Oberyn Martell of House Martell arrives in King's Landing seeking justice",
+        "house_arryn": "Lysa Arryn of House Arryn refuses aid to dying Stark cause",
+        "dothraki_clans": "Dothraki bloodriders remain loyal despite Daenerys's anti-slavery stance"
+      },
+      "cascading_effects": ["Northern rebellion crushed", "Bolton rule established", "Stark children become fugitives"]
+    },
+    {
+      "event_id": 10,
+      "title": "King Joffrey Baratheon poisoned at Purple Wedding",
+      "description": "The boy king dies at his wedding feast, Tyrion Lannister accused of regicide",
+      "political_context": {
+        "house_stark": "Sansa Stark of House Stark escapes capital with Petyr Baelish",
+        "house_lannister": "Tyrion Lannister of House Lannister faces trial, family loyalty tested",
+        "house_baratheon": "Tommen Baratheon of House Baratheon becomes king under Lannister control",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen faces Sons of Harpy rebellion",
+        "house_greyjoy": "Balon Greyjoy of House Greyjoy dies mysteriously, succession crisis begins",
+        "house_tully": "Edmure Tully of House Tully remains Frey prisoner",
+        "house_tyrell": "Olenna Tyrell of House Tyrell orchestrates murder to protect granddaughter",
+        "house_martell": "Oberyn Martell of House Martell champions Tyrion in trial by combat",
+        "house_arryn": "Lysa Arryn of House Arryn murdered by Petyr Baelish",
+        "dothraki_clans": "Dothraki culture clashes with Daenerys's civilized rule"
+      },
+      "cascading_effects": ["Tommen becomes king", "Tyrion's trial begins", "Tyrell influence grows"]
+    },
+    {
+      "event_id": 11,
+      "title": "Trial by Combat - Oberyn Martell of House Martell vs The Mountain",
+      "description": "Prince Oberyn dies fighting Gregor Clegane, but poisons his opponent",
+      "political_context": {
+        "house_stark": "Arya Stark of House Stark continues assassin training in Braavos",
+        "house_lannister": "Tyrion Lannister of House Lannister condemned to death, kills Tywin",
+        "house_baratheon": "Stannis Baratheon of House Baratheon marches on Winterfell",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen struggles with ruling complexities",
+        "house_greyjoy": "Euron Greyjoy of House Greyjoy claims Seastone Chair",
+        "house_tully": "Brynden Tully of House Tully retakes Riverrun",
+        "house_tyrell": "Margaery Tyrell of House Tyrell marries Tommen Baratheon",
+        "house_martell": "Doran Martell of House Martell grieves brother, plans revenge",
+        "house_arryn": "Robin Arryn of House Arryn under Petyr Baelish's influence",
+        "dothraki_clans": "Dothraki respect Daenerys's strength but question her mercy"
+      },
+      "cascading_effects": ["Tyrion escapes to Essos", "Tywin Lannister dies", "Dorne seeks vengeance"]
+    },
+    {
+      "event_id": 12,
+      "title": "Tywin Lannister of House Lannister murdered by Tyrion",
+      "description": "The Hand of the King killed on privy by his dwarf son, Lannister power shaken",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark elected Lord Commander of Night's Watch",
+        "house_lannister": "Cersei Lannister of House Lannister assumes power, paranoia increases",
+        "house_baratheon": "Stannis Baratheon of House Baratheon gains northern mountain clans",
+        "house_targaryen": "Tyrion Lannister of House Lannister joins Daenerys's cause",
+        "house_greyjoy": "Euron Greyjoy of House Greyjoy plans dragon horn acquisition",
+        "house_tully": "Jaime Lannister of House Lannister negotiates Riverrun surrender",
+        "house_tyrell": "Margaery Tyrell of House Tyrell gains influence over young king",
+        "house_martell": "Sand Snakes of House Martell plot against Lannisters",
+        "house_arryn": "Sansa Stark of House Stark revealed as Petyr's ward",
+        "dothraki_clans": "Dothraki culture slowly adapts to Daenerys's rule"
+      },
+      "cascading_effects": ["Lannister leadership crisis", "Tyrion flees to Essos", "Cersei's paranoid rule begins"]
+    },
+    {
+      "event_id": 13,
+      "title": "Stannis Baratheon of House Baratheon burns Shireen Baratheon",
+      "description": "Desperate king sacrifices daughter to Red God for victory against Boltons",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark allies with wildlings against White Walkers",
+        "house_lannister": "Cersei Lannister of House Lannister arms Faith Militant",
+        "house_baratheon": "Stannis Baratheon of House Baratheon loses army support, wife commits suicide",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen flies away on Drogon",
+        "house_greyjoy": "Theon Greyjoy of House Greyjoy helps Sansa escape Winterfell",
+        "house_tully": "Brynden Tully of House Tully dies defending Riverrun",
+        "house_tyrell": "Margaery Tyrell of House Tyrell imprisoned by Faith Militant",
+        "house_martell": "Doran Martell of House Martell murdered by Sand Snakes",
+        "house_arryn": "Robin Arryn of House Arryn trains under Bronze Yohn Royce",
+        "dothraki_clans": "Khal Moro captures Daenerys, questions her strength"
+      },
+      "cascading_effects": ["Stannis's army deserts", "Northern houses turn against him", "Religious extremism rises"]
+    },
+    {
+      "event_id": 14,
+      "title": "Battle of Winterfell - Stannis Baratheon defeated and executed",
+      "description": "Bolton forces crush Stannis's depleted army, Brienne executes the king",
+      "political_context": {
+        "house_stark": "Sansa Stark of House Stark escapes Bolton captivity with Theon",
+        "house_lannister": "Jaime Lannister of House Lannister returns to find Cersei imprisoned",
+        "house_baratheon": "Baratheon line effectively extinct, no legitimate claimants remain",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen burns khals, unites Dothraki",
+        "house_greyjoy": "Theon Greyjoy of House Greyjoy redeems himself helping Sansa",
+        "house_tully": "Edmure Tully of House Tully released to negotiate Riverrun surrender",
+        "house_tyrell": "Olenna Tyrell of House Tyrell negotiates with Faith Militant",
+        "house_martell": "Ellaria Sand of House Martell controls Dorne through coup",
+        "house_arryn": "Petyr Baelish manipulates Vale lords for northern intervention",
+        "dothraki_clans": "All Dothraki khals burn, Daenerys becomes supreme leader"
+      },
+      "cascading_effects": ["Bolton control of North secured", "Baratheon extinction", "Sansa begins northern resistance"]
+    },
+    {
+      "event_id": 15,
+      "title": "Jon Snow of House Stark assassinated and resurrected",
+      "description": "Night's Watch mutineers kill Lord Commander, Melisandre brings him back",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark freed from Night's Watch vows by death",
+        "house_lannister": "Cersei Lannister of House Lannister undergoes walk of shame",
+        "house_baratheon": "Gendry of House Baratheon remains hidden bastard",
+        "house_targaryen": "Jon Snow's true parentage remains hidden secret",
+        "house_greyjoy": "Yara Greyjoy of House Greyjoy competes for Seastone Chair",
+        "house_tully": "Riverlands remain under Frey-Lannister control",
+        "house_tyrell": "Margaery Tyrell of House Tyrell manipulates Faith Militant",
+        "house_martell": "Trystane Martell of House Martell murdered by Sand Snakes",
+        "house_arryn": "Sansa Stark of House Stark arrives at Castle Black",
+        "dothraki_clans": "Dothraki prepare for Westeros invasion under Daenerys"
+      },
+      "cascading_effects": ["Jon Snow freed from vows", "Magic's power confirmed", "Northern reunification begins"]
+    },
+    {
+      "event_id": 16,
+      "title": "Battle of the Bastards - Jon Snow retakes Winterfell",
+      "description": "Stark-Arryn alliance defeats Boltons, Ramsay Bolton fed to his own hounds",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark proclaimed King in the North",
+        "house_lannister": "Cersei Lannister of House Lannister destroys Great Sept with wildfire",
+        "house_baratheon": "No Baratheon representatives remain in politics",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen sails for Westeros with dragons",
+        "house_greyjoy": "Yara Greyjoy of House Greyjoy allies with Daenerys",
+        "house_tully": "Edmure Tully of House Tully returns to Riverrun under Lannister terms",
+        "house_tyrell": "Margaery Tyrell of House Tyrell dies in Great Sept explosion",
+        "house_martell": "Ellaria Sand of House Martell allies with Daenerys",
+        "house_arryn": "Robin Arryn of House Arryn supports Stark restoration",
+        "dothraki_clans": "Dothraki cross Narrow Sea for first time in history"
+      },
+      "cascading_effects": ["Stark restoration complete", "Northern independence declared", "Bolton extinction"]
+    },
+    {
+      "event_id": 17,
+      "title": "Destruction of Great Sept of Baelor by Cersei Lannister",
+      "description": "Queen Mother uses wildfire to eliminate Faith Militant and political enemies",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark consolidates northern support",
+        "house_lannister": "Cersei Lannister of House Lannister becomes Queen, rules through fear",
+        "house_baratheon": "Tommen Baratheon of House Baratheon commits suicide",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen gains Tyrell and Martell allies",
+        "house_greyjoy": "Euron Greyjoy of House Greyjoy seeks Cersei's alliance",
+        "house_tully": "Riverlands remain under Lannister occupation",
+        "house_tyrell": "Olenna Tyrell of House Tyrell seeks vengeance for granddaughter",
+        "house_martell": "Ellaria Sand of House Martell joins anti-Lannister coalition",
+        "house_arryn": "Vale lords support northern independence",
+        "dothraki_clans": "Dothraki prepare for conquest of Seven Kingdoms"
+      },
+      "cascading_effects": ["Cersei becomes Queen", "Faith Militant destroyed", "Tyrell-Martell alliance with Daenerys"]
+    },
+    {
+      "event_id": 18,
+      "title": "Daenerys Targaryen of House Targaryen lands at Dragonstone",
+      "description": "The Dragon Queen returns to Westeros with massive invasion force",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark faces White Walker threat from North",
+        "house_lannister": "Cersei Lannister of House Lannister prepares for war on multiple fronts",
+        "house_baratheon": "Gendry of House Baratheon works as blacksmith, unaware of heritage",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen claims ancestral seat",
+        "house_greyjoy": "Euron Greyjoy of House Greyjoy attacks Daenerys's fleet",
+        "house_tully": "Edmure Tully of House Tully remains under Lannister control",
+        "house_tyrell": "Olenna Tyrell of House Tyrell provides gold for Daenerys's cause",
+        "house_martell": "Ellaria Sand of House Martell captured by Euron Greyjoy",
+        "house_arryn": "Robin Arryn of House Arryn maintains Vale neutrality",
+        "dothraki_clans": "Dothraki establish beachhead for mainland conquest"
+      },
+      "cascading_effects": ["Targaryen restoration begins", "Dragon power returns to Westeros", "Multiple faction war starts"]
+    },
+    {
+      "event_id": 19,
+      "title": "Jon Snow of House Stark meets Daenerys Targaryen at Dragonstone",
+      "description": "King in the North seeks dragonglass and alliance against White Walkers",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark prioritizes existential threat over politics",
+        "house_lannister": "Jaime Lannister of House Lannister witnesses dragon attack on Lannister army",
+        "house_baratheon": "Gendry of House Baratheon joins Jon's mission beyond Wall",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen begins romantic relationship with Jon",
+        "house_greyjoy": "Theon Greyjoy of House Greyjoy rescues sister from Euron",
+        "house_tully": "Riverlands suffer under continued Lannister occupation",
+        "house_tyrell": "Olenna Tyrell of House Tyrell dies after revealing Joffrey's murder",
+        "house_martell": "Ellaria Sand of House Martell tortured in King's Landing dungeons",
+        "house_arryn": "Petyr Baelish manipulates Stark sisters against each other",
+        "dothraki_clans": "Dothraki witness dragon power in Westeros warfare"
+      },
+      "cascading_effects": ["Stark-Targaryen alliance forms", "Dragon casualties begin", "Romance affects politics"]
+    },
+    {
+      "event_id": 20,
+      "title": "Capture of wight beyond the Wall - Viserion becomes ice dragon",
+      "description": "Suicide mission to prove White Walker threat results in dragon's death and resurrection",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark proves White Walker threat to southern lords",
+        "house_lannister": "Cersei Lannister of House Lannister agrees to temporary truce",
+        "house_baratheon": "Gendry of House Baratheon revealed as Robert's bastard",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen loses dragon to Night King",
+        "house_greyjoy": "Euron Greyjoy of House Greyjoy pretends to flee to Essos",
+        "house_tully": "Riverlands lords consider joining anti-Lannister coalition",
+        "house_tyrell": "Tyrell gold funds Lannister debt repayment",
+        "house_martell": "Dorne remains leaderless after Sand Snake failures",
+        "house_arryn": "Petyr Baelish executed for treason against Starks",
+        "dothraki_clans": "Dothraki witness supernatural enemies beyond their understanding"
+      },
+      "cascading_effects": ["Wall breached by ice dragon", "Temporary truce declared", "White Walker threat proven"]
+    },
+    {
+      "event_id": 21,
+      "title": "Wall falls - Night King breaches Westeros",
+      "description": "Undead Viserion destroys Eastwatch, allowing White Walker army into Seven Kingdoms",
+      "political_context": {
+        "house_stark": "Bran Stark of House Stark reveals Jon's true parentage as Targaryen",
+        "house_lannister": "Jaime Lannister of House Lannister abandons Cersei to fight dead",
+        "house_baratheon": "Gendry of House Baratheon legitimized by Daenerys",
+        "house_targaryen": "Jon Snow learns he is Aegon Targaryen, rightful heir",
+        "house_greyjoy": "Theon Greyjoy of House Greyjoy redeems himself protecting Bran",
+        "house_tully": "Edmure Tully of House Tully joins final battle preparations",
+        "house_tyrell": "Sam Tarly of House Tarly represents Reach at Winterfell",
+        "house_martell": "Dorne sends minimal forces to fight dead",
+        "house_arryn": "Robin Arryn of House Arryn sends Vale knights to Winterfell",
+        "dothraki_clans": "Dothraki face extinction fighting supernatural enemy"
+      },
+      "cascading_effects": ["Existential threat to all life", "Political conflicts suspended", "Jon's heritage revealed"]
+    },
+    {
+      "event_id": 22,
+      "title": "Battle of Winterfell - Night King defeated by Arya Stark",
+      "description": "Longest night ends when Arya kills Night King, destroying White Walker army",
+      "political_context": {
+        "house_stark": "Arya Stark of House Stark saves humanity, Stark heroism proven",
+        "house_lannister": "Jaime Lannister of House Lannister dies protecting Bran Stark",
+        "house_baratheon": "Gendry of House Baratheon survives battle, proposes to Arya",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen loses most of her forces",
+        "house_greyjoy": "Theon Greyjoy of House Greyjoy dies heroically defending Bran",
+        "house_tully": "Edmure Tully of House Tully survives to rebuild Riverlands",
+        "house_tyrell": "Sam Tarly of House Tarly survives, inherits Reach lordship",
+        "house_martell": "Dorne remains largely intact after minimal involvement",
+        "house_arryn": "Vale forces suffer heavy casualties but survive",
+        "dothraki_clans": "Dothraki nearly extinct, few survivors remain"
+      },
+      "cascading_effects": ["White Walker threat ended", "Massive casualties weaken all houses", "Focus returns to Iron Throne"]
+    },
+    {
+      "event_id": 23,
+      "title": "Daenerys Targaryen burns King's Landing",
+      "description": "Dragon Queen destroys capital city after hearing surrender bells, becoming Mad Queen",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark horrified by Daenerys's massacre",
+        "house_lannister": "Cersei Lannister of House Lannister dies in Red Keep collapse",
+        "house_baratheon": "Gendry of House Baratheon witnesses dragon destruction",
+        "house_targaryen": "Daenerys Targaryen of House Targaryen becomes tyrant, loses support",
+        "house_greyjoy": "Euron Greyjoy of House Greyjoy dies fighting Jaime Lannister",
+        "house_tully": "Riverlands lords horrified by capital's destruction",
+        "house_tyrell": "Reach lords question supporting Targaryen restoration",
+        "house_martell": "Dorne reconsiders Targaryen alliance after massacre",
+        "house_arryn": "Vale lords shocked by Daenerys's brutality",
+        "dothraki_clans": "Remaining Dothraki celebrate conquest through fire"
+      },
+      "cascading_effects": ["King's Landing destroyed", "Daenerys becomes tyrant", "Support for Targaryens collapses"]
+    },
+    {
+      "event_id": 24,
+      "title": "Jon Snow kills Daenerys Targaryen",
+      "description": "Jon assassinates his lover and queen to prevent further tyranny",
+      "political_context": {
+        "house_stark": "Jon Snow of House Stark sacrifices love for realm's safety",
+        "house_lannister": "Tyrion Lannister of House Lannister survives as prisoner",
+        "house_baratheon": "Gendry of House Baratheon loses claim to throne",
+        "house_targaryen": "Targaryen line effectively ends with Daenerys's death",
+        "house_greyjoy": "Yara Greyjoy of House Greyjoy maintains Iron Islands independence",
+        "house_tully": "Edmure Tully of House Tully attends great council",
+        "house_tyrell": "Sam Tarly of House Tarly represents Reach at council",
+        "house_martell": "Prince of Dorne attends council for new king selection",
+        "house_arryn": "Robin Arryn of House Arryn participates in king selection",
+        "dothraki_clans": "Dothraki return to Essos without queen"
+      },
+      "cascading_effects": ["Targaryen restoration ends", "Jon exiled to Night's Watch", "Great Council convened"]
+    },
+    {
+      "event_id": 25,
+      "title": "Bran Stark of House Stark elected King of Six Kingdoms",
+      "description": "Great Council chooses Three-Eyed Raven as ruler, North granted independence",
+      "political_context": {
+        "house_stark": "Sansa Stark of House Stark becomes Queen in the North",
+        "house_lannister": "Tyrion Lannister of House Lannister becomes Hand of the King",
+        "house_baratheon": "Gendry of House Baratheon legitimized as Lord of Storm's End",
+        "house_targaryen": "Jon Snow exiled beyond Wall, Targaryen line ended",
+        "house_greyjoy": "Yara Greyjoy of House Greyjoy maintains Iron Islands independence",
+        "house_tully": "Edmure Tully of House Tully returns to rule Riverlands",
+        "house_tyrell": "Sam Tarly of House Tarly becomes Lord of Reach",
+        "house_martell": "Dorne maintains autonomy under new king",
+        "house_arryn": "Robin Arryn of House Arryn rules Vale independently",
+        "dothraki_clans": "Dothraki return to traditional nomadic life in Essos"
+      },
+      "cascading_effects": ["New political order established", "Northern independence achieved", "Feudal system reformed"]
+    }
+  ]
+}

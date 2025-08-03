@@ -1,0 +1,2664 @@
+{
+  "npcs": [
+    {
+      "id": "stark_001",
+      "name": "Ser Gareth Stark",
+      "house": "House Stark",
+      "age": 34,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 82,
+        "loyalty": 88,
+        "intelligence": 65,
+        "emotional_intelligence": 70,
+        "evil": 12,
+        "selflessness": 75,
+        "ambition": 35,
+        "combat_skill": 80,
+        "political_cunning": 45,
+        "religious_devotion": 65
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_002",
+          "relationship_type": "family",
+          "strength": 90
+        },
+        {
+          "npc_id": "stark_015",
+          "relationship_type": "ally",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Patrolling the borders with quiet determination",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_002",
+      "name": "Lady Elara Stark",
+      "house": "House Stark",
+      "age": 28,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 85,
+        "loyalty": 92,
+        "intelligence": 72,
+        "emotional_intelligence": 78,
+        "evil": 8,
+        "selflessness": 82,
+        "ambition": 30,
+        "combat_skill": 60,
+        "political_cunning": 55,
+        "religious_devotion": 68
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "family",
+          "strength": 90
+        },
+        {
+          "npc_id": "stark_003",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Managing household affairs with stern but fair guidance",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_003",
+      "name": "Maester Torren Stark",
+      "house": "House Stark",
+      "age": 45,
+      "gender": "male",
+      "role": "maester",
+      "traits": {
+        "honor": 78,
+        "loyalty": 85,
+        "intelligence": 88,
+        "emotional_intelligence": 72,
+        "evil": 5,
+        "selflessness": 85,
+        "ambition": 25,
+        "combat_skill": 40,
+        "political_cunning": 60,
+        "religious_devotion": 70
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_002",
+          "relationship_type": "family",
+          "strength": 85
+        },
+        {
+          "npc_id": "stark_022",
+          "relationship_type": "mentor",
+          "strength": 95
+        }
+      ],
+      "current_behavior": "Studying ancient texts and advising on matters of governance",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_004",
+      "name": "Jory Cassel",
+      "house": "House Stark",
+      "age": 32,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 75,
+        "loyalty": 95,
+        "intelligence": 60,
+        "emotional_intelligence": 65,
+        "evil": 5,
+        "selflessness": 80,
+        "ambition": 20,
+        "combat_skill": 78,
+        "political_cunning": 40,
+        "religious_devotion": 55
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "servant",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Training young Stark soldiers with traditional northern discipline",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_005",
+      "name": "Old Nan",
+      "house": "House Stark",
+      "age": 72,
+      "gender": "female",
+      "role": "servant",
+      "traits": {
+        "honor": 70,
+        "loyalty": 88,
+        "intelligence": 65,
+        "emotional_intelligence": 82,
+        "evil": 2,
+        "selflessness": 75,
+        "ambition": 5,
+        "combat_skill": 15,
+        "political_cunning": 50,
+        "religious_devotion": 60
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_002",
+          "relationship_type": "servant",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Sharing old stories and wisdom with the Stark children",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_006",
+      "name": "Farlen Stark",
+      "house": "House Stark",
+      "age": 48,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 72,
+        "loyalty": 85,
+        "intelligence": 55,
+        "emotional_intelligence": 60,
+        "evil": 10,
+        "selflessness": 70,
+        "ambition": 25,
+        "combat_skill": 75,
+        "political_cunning": 35,
+        "religious_devotion": 50
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "ally",
+          "strength": 70
+        }
+      ],
+      "current_behavior": "Overseeing the kennels and training direwolf pups",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_007",
+      "name": "Beth Cassel",
+      "house": "House Stark",
+      "age": 19,
+      "gender": "female",
+      "role": "servant",
+      "traits": {
+        "honor": 68,
+        "loyalty": 82,
+        "intelligence": 58,
+        "emotional_intelligence": 65,
+        "evil": 8,
+        "selflessness": 72,
+        "ambition": 30,
+        "combat_skill": 45,
+        "political_cunning": 40,
+        "religious_devotion": 55
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_004",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Serving the Stark household with quiet dedication",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_008",
+      "name": "Ser Rodrik Stark",
+      "house": "House Stark",
+      "age": 52,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 88,
+        "loyalty": 93,
+        "intelligence": 68,
+        "emotional_intelligence": 75,
+        "evil": 5,
+        "selflessness": 85,
+        "ambition": 20,
+        "combat_skill": 82,
+        "political_cunning": 50,
+        "religious_devotion": 62
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "family",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Maintaining the honor and traditions of House Stark",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_009",
+      "name": "Lady Wylla Stark",
+      "house": "House Stark",
+      "age": 26,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 80,
+        "loyalty": 88,
+        "intelligence": 70,
+        "emotional_intelligence": 76,
+        "evil": 10,
+        "selflessness": 78,
+        "ambition": 35,
+        "combat_skill": 55,
+        "political_cunning": 58,
+        "religious_devotion": 64
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_002",
+          "relationship_type": "family",
+          "strength": 82
+        }
+      ],
+      "current_behavior": "Caring for the Stark children and managing domestic affairs",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_010",
+      "name": "Jon Umber",
+      "house": "House Stark",
+      "age": 38,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 75,
+        "loyalty": 85,
+        "intelligence": 62,
+        "emotional_intelligence": 68,
+        "evil": 15,
+        "selflessness": 70,
+        "ambition": 45,
+        "combat_skill": 80,
+        "political_cunning": 48,
+        "religious_devotion": 58
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "ally",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Leading his bannermen with traditional northern values",
+      "location": "Last Hearth",
+      "status": "alive"
+    },
+    {
+      "id": "stark_011",
+      "name": "Ser Lyanna Stark",
+      "house": "House Stark",
+      "age": 24,
+      "gender": "female",
+      "role": "knight",
+      "traits": {
+        "honor": 85,
+        "loyalty": 90,
+        "intelligence": 68,
+        "emotional_intelligence": 72,
+        "evil": 8,
+        "selflessness": 80,
+        "ambition": 40,
+        "combat_skill": 78,
+        "political_cunning": 50,
+        "religious_devotion": 62
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_002",
+          "relationship_type": "family",
+          "strength": 88
+        }
+      ],
+      "current_behavior": "Practicing swordplay in the courtyard with fierce determination",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_012",
+      "name": "Maester Willam Stark",
+      "house": "House Stark",
+      "age": 50,
+      "gender": "male",
+      "role": "maester",
+      "traits": {
+        "honor": 76,
+        "loyalty": 82,
+        "intelligence": 85,
+        "emotional_intelligence": 70,
+        "evil": 6,
+        "selflessness": 80,
+        "ambition": 22,
+        "combat_skill": 35,
+        "political_cunning": 55,
+        "religious_devotion": 65
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_003",
+          "relationship_type": "ally",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Tending to the ravens and maintaining the maester's archives",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_013",
+      "name": "Lady Sansa Stark",
+      "house": "House Stark",
+      "age": 18,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 78,
+        "loyalty": 85,
+        "intelligence": 75,
+        "emotional_intelligence": 80,
+        "evil": 12,
+        "selflessness": 75,
+        "ambition": 45,
+        "combat_skill": 30,
+        "political_cunning": 65,
+        "religious_devotion": 60
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_002",
+          "relationship_type": "family",
+          "strength": 95
+        }
+      ],
+      "current_behavior": "Learning courtly manners while maintaining northern values",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_014",
+      "name": "Ser Robb Stark",
+      "house": "House Stark",
+      "age": 22,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 88,
+        "loyalty": 92,
+        "intelligence": 72,
+        "emotional_intelligence": 75,
+        "evil": 5,
+        "selflessness": 85,
+        "ambition": 50,
+        "combat_skill": 82,
+        "political_cunning": 60,
+        "religious_devotion": 63
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "family",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Studying military tactics and preparing for future leadership",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_015",
+      "name": "Lord Roose Bolton",
+      "house": "House Stark",
+      "age": 45,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 45,
+        "loyalty": 60,
+        "intelligence": 85,
+        "emotional_intelligence": 88,
+        "evil": 65,
+        "selflessness": 25,
+        "ambition": 80,
+        "combat_skill": 65,
+        "political_cunning": 90,
+        "religious_devotion": 40
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "ally",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Quietly observing court dynamics while planning strategic moves",
+      "location": "Dreadfort",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_001",
+      "name": "Ser Tywin Lannister",
+      "house": "House Lannister",
+      "age": 42,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 35,
+        "loyalty": 65,
+        "intelligence": 88,
+        "emotional_intelligence": 90,
+        "evil": 70,
+        "selflessness": 20,
+        "ambition": 95,
+        "combat_skill": 75,
+        "political_cunning": 95,
+        "religious_devotion": 40
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_002",
+          "relationship_type": "family",
+          "strength": 85
+        },
+        {
+          "npc_id": "lannister_003",
+          "relationship_type": "family",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Calculating political moves to strengthen Lannister influence",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_002",
+      "name": "Lady Cersei Lannister",
+      "house": "House Lannister",
+      "age": 36,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 25,
+        "loyalty": 75,
+        "intelligence": 82,
+        "emotional_intelligence": 85,
+        "evil": 75,
+        "selflessness": 15,
+        "ambition": 98,
+        "combat_skill": 45,
+        "political_cunning": 90,
+        "religious_devotion": 35
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "family",
+          "strength": 85
+        },
+        {
+          "npc_id": "lannister_003",
+          "relationship_type": "family",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Manipulating court politics to secure her children's future",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_003",
+      "name": "Ser Jaime Lannister",
+      "house": "House Lannister",
+      "age": 34,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 45,
+        "loyalty": 85,
+        "intelligence": 75,
+        "emotional_intelligence": 80,
+        "evil": 40,
+        "selflessness": 50,
+        "ambition": 60,
+        "combat_skill": 95,
+        "political_cunning": 70,
+        "religious_devotion": 42
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "family",
+          "strength": 80
+        },
+        {
+          "npc_id": "lannister_002",
+          "relationship_type": "family",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Struggling with his reputation and duty to his family",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_004",
+      "name": "Tyrion Lannister",
+      "house": "House Lannister",
+      "age": 29,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 65,
+        "loyalty": 70,
+        "intelligence": 95,
+        "emotional_intelligence": 88,
+        "evil": 20,
+        "selflessness": 60,
+        "ambition": 75,
+        "combat_skill": 30,
+        "political_cunning": 85,
+        "religious_devotion": 48
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "family",
+          "strength": 60
+        }
+      ],
+      "current_behavior": "Using wit and wisdom to navigate family tensions",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_005",
+      "name": "Ser Kevan Lannister",
+      "house": "House Lannister",
+      "age": 48,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 55,
+        "loyalty": 90,
+        "intelligence": 78,
+        "emotional_intelligence": 75,
+        "evil": 25,
+        "selflessness": 55,
+        "ambition": 50,
+        "combat_skill": 70,
+        "political_cunning": 75,
+        "religious_devotion": 50
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "family",
+          "strength": 95
+        }
+      ],
+      "current_behavior": "Serving as a trusted advisor to his brother Tywin",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_006",
+      "name": "Lady Dorna Lannister",
+      "house": "House Lannister",
+      "age": 31,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 42,
+        "loyalty": 82,
+        "intelligence": 68,
+        "emotional_intelligence": 72,
+        "evil": 18,
+        "selflessness": 58,
+        "ambition": 45,
+        "combat_skill": 25,
+        "political_cunning": 60,
+        "religious_devotion": 52
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_005",
+          "relationship_type": "family",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Managing Lannister household affairs with quiet efficiency",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_007",
+      "name": "Maester Lomys Lannister",
+      "house": "House Lannister",
+      "age": 50,
+      "gender": "male",
+      "role": "maester",
+      "traits": {
+        "honor": 50,
+        "loyalty": 75,
+        "intelligence": 85,
+        "emotional_intelligence": 70,
+        "evil": 15,
+        "selflessness": 65,
+        "ambition": 35,
+        "combat_skill": 20,
+        "political_cunning": 68,
+        "religious_devotion": 45
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "servant",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Providing counsel on matters of state and learning",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_008",
+      "name": "Ser Leo Lannister",
+      "house": "House Lannister",
+      "age": 26,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 38,
+        "loyalty": 78,
+        "intelligence": 65,
+        "emotional_intelligence": 70,
+        "evil": 30,
+        "selflessness": 40,
+        "ambition": 65,
+        "combat_skill": 82,
+        "political_cunning": 60,
+        "religious_devotion": 38
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "family",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Eagerly proving himself in service to House Lannister",
+      "location": "Lannisport",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_009",
+      "name": "Lady Jeyne Lannister",
+      "house": "House Lannister",
+      "age": 22,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 45,
+        "loyalty": 72,
+        "intelligence": 70,
+        "emotional_intelligence": 75,
+        "evil": 25,
+        "selflessness": 45,
+        "ambition": 55,
+        "combat_skill": 20,
+        "political_cunning": 65,
+        "religious_devotion": 42
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_004",
+          "relationship_type": "family",
+          "strength": 70
+        }
+      ],
+      "current_behavior": "Learning courtly manners and political etiquette",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_010",
+      "name": "Ser Addam Lannister",
+      "house": "House Lannister",
+      "age": 39,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 48,
+        "loyalty": 85,
+        "intelligence": 72,
+        "emotional_intelligence": 78,
+        "evil": 35,
+        "selflessness": 38,
+        "ambition": 70,
+        "combat_skill": 85,
+        "political_cunning": 72,
+        "religious_devotion": 40
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_002",
+          "relationship_type": "ally",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Commanding Lannister forces with strategic precision",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_011",
+      "name": "Lady Genna Lannister",
+      "house": "House Lannister",
+      "age": 33,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 50,
+        "loyalty": 78,
+        "intelligence": 70,
+        "emotional_intelligence": 75,
+        "evil": 20,
+        "selflessness": 55,
+        "ambition": 48,
+        "combat_skill": 30,
+        "political_cunning": 62,
+        "religious_devotion": 48
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Managing family affairs with diplomatic skill",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_012",
+      "name": "Ser Damon Lannister",
+      "house": "House Lannister",
+      "age": 41,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 42,
+        "loyalty": 82,
+        "intelligence": 68,
+        "emotional_intelligence": 72,
+        "evil": 28,
+        "selflessness": 42,
+        "ambition": 62,
+        "combat_skill": 78,
+        "political_cunning": 65,
+        "religious_devotion": 40
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_005",
+          "relationship_type": "ally",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Leading Lannister forces with calculated aggression",
+      "location": "Lannisport",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_001",
+      "name": "King Robert Baratheon",
+      "house": "House Baratheon",
+      "age": 45,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 60,
+        "loyalty": 55,
+        "intelligence": 50,
+        "emotional_intelligence": 55,
+        "evil": 45,
+        "selflessness": 48,
+        "ambition": 70,
+        "combat_skill": 85,
+        "political_cunning": 60,
+        "religious_devotion": 45
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_002",
+          "relationship_type": "ally",
+          "strength": 75
+        },
+        {
+          "npc_id": "baratheon_003",
+          "relationship_type": "enemy",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Hunting and drinking to escape the burdens of kingship",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_002",
+      "name": "Stannis Baratheon",
+      "house": "House Baratheon",
+      "age": 42,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 75,
+        "loyalty": 70,
+        "intelligence": 70,
+        "emotional_intelligence": 60,
+        "evil": 30,
+        "selflessness": 55,
+        "ambition": 85,
+        "combat_skill": 75,
+        "political_cunning": 70,
+        "religious_devotion": 65
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_001",
+          "relationship_type": "family",
+          "strength": 65
+        },
+        {
+          "npc_id": "baratheon_003",
+          "relationship_type": "family",
+          "strength": 60
+        }
+      ],
+      "current_behavior": "Preparing for his rightful claim to the throne with stern determination",
+      "location": "Dragonstone",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_003",
+      "name": "Renly Baratheon",
+      "house": "House Baratheon",
+      "age": 30,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 55,
+        "loyalty": 50,
+        "intelligence": 60,
+        "emotional_intelligence": 75,
+        "evil": 25,
+        "selflessness": 50,
+        "ambition": 80,
+        "combat_skill": 65,
+        "political_cunning": 75,
+        "religious_devotion": 40
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_001",
+          "relationship_type": "family",
+          "strength": 70
+        },
+        {
+          "npc_id": "baratheon_002",
+          "relationship_type": "family",
+          "strength": 60
+        }
+      ],
+      "current_behavior": "Charming the court with wit and style while building his own faction",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_004",
+      "name": "Ser Cortnay Penrose",
+      "house": "House Baratheon",
+      "age": 38,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 70,
+        "loyalty": 85,
+        "intelligence": 65,
+        "emotional_intelligence": 68,
+        "evil": 15,
+        "selflessness": 75,
+        "ambition": 40,
+        "combat_skill": 80,
+        "political_cunning": 55,
+        "religious_devotion": 50
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_002",
+          "relationship_type": "ally",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Defending Dragonstone with unwavering loyalty to Stannis",
+      "location": "Dragonstone",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_005",
+      "name": "Lady Melisandre",
+      "house": "House Baratheon",
+      "age": 35,
+      "gender": "female",
+      "role": "septon",
+      "traits": {
+        "honor": 50,
+        "loyalty": 90,
+        "intelligence": 80,
+        "emotional_intelligence": 85,
+        "evil": 60,
+        "selflessness": 40,
+        "ambition": 85,
+        "combat_skill": 30,
+        "political_cunning": 88,
+        "religious_devotion": 95
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_002",
+          "relationship_type": "ally",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Spreading the faith of R'hllor and influencing court politics",
+      "location": "Dragonstone",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_006",
+      "name": "Ser Davos Seaworth",
+      "house": "House Baratheon",
+      "age": 40,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 80,
+        "loyalty": 95,
+        "intelligence": 65,
+        "emotional_intelligence": 75,
+        "evil": 5,
+        "selflessness": 85,
+        "ambition": 30,
+        "combat_skill": 70,
+        "political_cunning": 60,
+        "religious_devotion": 55
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_002",
+          "relationship_type": "ally",
+          "strength": 95
+        }
+      ],
+      "current_behavior": "Serving as Stannis's most trusted advisor and moral compass",
+      "location": "Dragonstone",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_007",
+      "name": "Patchface",
+      "house": "House Baratheon",
+      "age": 25,
+      "gender": "male",
+      "role": "servant",
+      "traits": {
+        "honor": 30,
+        "loyalty": 70,
+        "intelligence": 40,
+        "emotional_intelligence": 50,
+        "evil": 10,
+        "selflessness": 45,
+        "ambition": 15,
+        "combat_skill": 20,
+        "political_cunning": 35,
+        "religious_devotion": 30
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_003",
+          "relationship_type": "servant",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Entertaining Renly with riddles and strange songs",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_008",
+      "name": "Lady Selyse Baratheon",
+      "house": "House Baratheon",
+      "age": 33,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 55,
+        "loyalty": 88,
+        "intelligence": 58,
+        "emotional_intelligence": 62,
+        "evil": 25,
+        "selflessness": 50,
+        "ambition": 75,
+        "combat_skill": 25,
+        "political_cunning": 65,
+        "religious_devotion": 85
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_002",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Devoutly following Melisandre's teachings and supporting Stannis",
+      "location": "Dragonstone",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_009",
+      "name": "Bryen Farring",
+      "house": "House Baratheon",
+      "age": 28,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 60,
+        "loyalty": 80,
+        "intelligence": 62,
+        "emotional_intelligence": 58,
+        "evil": 15,
+        "selflessness": 65,
+        "ambition": 45,
+        "combat_skill": 72,
+        "political_cunning": 50,
+        "religious_devotion": 45
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_003",
+          "relationship_type": "ally",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Serving Renly with enthusiasm and loyalty",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_010",
+      "name": "Ser Imry Florent",
+      "house": "House Baratheon",
+      "age": 36,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 65,
+        "loyalty": 90,
+        "intelligence": 68,
+        "emotional_intelligence": 70,
+        "evil": 20,
+        "selflessness": 70,
+        "ambition": 50,
+        "combat_skill": 78,
+        "political_cunning": 62,
+        "religious_devotion": 60
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_002",
+          "relationship_type": "ally",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Leading Stannis's forces with fierce dedication",
+      "location": "Dragonstone",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_001",
+      "name": "Daenerys Targaryen",
+      "house": "House Targaryen",
+      "age": 24,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 70,
+        "loyalty": 90,
+        "intelligence": 80,
+        "emotional_intelligence": 75,
+        "evil": 15,
+        "selflessness": 75,
+        "ambition": 98,
+        "combat_skill": 70,
+        "political_cunning": 82,
+        "religious_devotion": 55
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_002",
+          "relationship_type": "family",
+          "strength": 95
+        }
+      ],
+      "current_behavior": "Planning her return to Westeros with growing confidence",
+      "location": "Essos",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_002",
+      "name": "Viserys Targaryen",
+      "house": "House Targaryen",
+      "age": 28,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 55,
+        "loyalty": 85,
+        "intelligence": 65,
+        "emotional_intelligence": 50,
+        "evil": 45,
+        "selflessness": 30,
+        "ambition": 95,
+        "combat_skill": 35,
+        "political_cunning": 60,
+        "religious_devotion": 40
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_001",
+          "relationship_type": "family",
+          "strength": 95
+        }
+      ],
+      "current_behavior": "Demanding his rightful crown with increasing desperation",
+      "location": "Essos",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_003",
+      "name": "Ser Jorah Mormont",
+      "house": "House Targaryen",
+      "age": 39,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 68,
+        "loyalty": 88,
+        "intelligence": 75,
+        "emotional_intelligence": 70,
+        "evil": 25,
+        "selflessness": 65,
+        "ambition": 60,
+        "combat_skill": 82,
+        "political_cunning": 75,
+        "religious_devotion": 45
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_001",
+          "relationship_type": "ally",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Serving Daenerys with unwavering devotion despite his exile",
+      "location": "Essos",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_004",
+      "name": "Illyrio Mopatis",
+      "house": "House Targaryen",
+      "age": 52,
+      "gender": "male",
+      "role": "merchant",
+      "traits": {
+        "honor": 45,
+        "loyalty": 75,
+        "intelligence": 85,
+        "emotional_intelligence": 90,
+        "evil": 35,
+        "selflessness": 40,
+        "ambition": 88,
+        "combat_skill": 30,
+        "political_cunning": 92,
+        "religious_devotion": 50
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_002",
+          "relationship_type": "ally",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Facilitating the Targaryen return through careful planning",
+      "location": "Pentos",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_005",
+      "name": "Khal Drogo",
+      "house": "House Targaryen",
+      "age": 32,
+      "gender": "male",
+      "role": "dothraki",
+      "traits": {
+        "honor": 60,
+        "loyalty": 85,
+        "intelligence": 65,
+        "emotional_intelligence": 70,
+        "evil": 40,
+        "selflessness": 50,
+        "ambition": 75,
+        "combat_skill": 95,
+        "political_cunning": 65,
+        "religious_devotion": 75
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_001",
+          "relationship_type": "romantic",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Leading his khalasar with fierce pride and growing affection",
+      "location": "Dothraki Sea",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_006",
+      "name": "Mirri Maz Duur",
+      "house": "House Targaryen",
+      "age": 45,
+      "gender": "female",
+      "role": "septon",
+      "traits": {
+        "honor": 50,
+        "loyalty": 60,
+        "intelligence": 88,
+        "emotional_intelligence": 75,
+        "evil": 65,
+        "selflessness": 35,
+        "ambition": 80,
+        "combat_skill": 40,
+        "political_cunning": 85,
+        "religious_devotion": 90
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_005",
+          "relationship_type": "enemy",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Plotting against the khalasar while maintaining religious facade",
+      "location": "Lhazar",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_007",
+      "name": "Rakharo",
+      "house": "House Targaryen",
+      "age": 26,
+      "gender": "male",
+      "role": "dothraki",
+      "traits": {
+        "honor": 55,
+        "loyalty": 90,
+        "intelligence": 58,
+        "emotional_intelligence": 62,
+        "evil": 30,
+        "selflessness": 55,
+        "ambition": 65,
+        "combat_skill": 88,
+        "political_cunning": 55,
+        "religious_devotion": 68
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_001",
+          "relationship_type": "servant",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Serving as Daenerys's loyal bloodrider with fierce dedication",
+      "location": "Dothraki Sea",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_008",
+      "name": "Quaithe",
+      "house": "House Targaryen",
+      "age": 38,
+      "gender": "female",
+      "role": "septon",
+      "traits": {
+        "honor": 60,
+        "loyalty": 80,
+        "intelligence": 90,
+        "emotional_intelligence": 85,
+        "evil": 35,
+        "selflessness": 60,
+        "ambition": 70,
+        "combat_skill": 55,
+        "political_cunning": 88,
+        "religious_devotion": 85
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_001",
+          "relationship_type": "mentor",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Mysteriously guiding Daenerys through prophecies and riddles",
+      "location": "Qarth",
+      "status": "alive"
+    },
+    {
+      "id": "greyjoy_001",
+      "name": "Lord Balon Greyjoy",
+      "house": "House Greyjoy",
+      "age": 50,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 45,
+        "loyalty": 80,
+        "intelligence": 70,
+        "emotional_intelligence": 65,
+        "evil": 55,
+        "selflessness": 30,
+        "ambition": 85,
+        "combat_skill": 75,
+        "political_cunning": 75,
+        "religious_devotion": 40
+      },
+      "relationships": [
+        {
+          "npc_id": "greyjoy_002",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Planning independence for the Iron Islands with grim determination",
+      "location": "Pyke",
+      "status": "alive"
+    },
+    {
+      "id": "greyjoy_002",
+      "name": "Theon Greyjoy",
+      "house": "House Greyjoy",
+      "age": 26,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 50,
+        "loyalty": 65,
+        "intelligence": 62,
+        "emotional_intelligence": 68,
+        "evil": 35,
+        "selflessness": 45,
+        "ambition": 70,
+        "combat_skill": 72,
+        "political_cunning": 60,
+        "religious_devotion": 38
+      },
+      "relationships": [
+        {
+          "npc_id": "greyjoy_001",
+          "relationship_type": "family",
+          "strength": 85
+        },
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "ally",
+          "strength": 70
+        }
+      ],
+      "current_behavior": "Struggling with identity between Stark upbringing and Greyjoy heritage",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "greyjoy_003",
+      "name": "Yara Greyjoy",
+      "house": "House Greyjoy",
+      "age": 28,
+      "gender": "female",
+      "role": "knight",
+      "traits": {
+        "honor": 55,
+        "loyalty": 85,
+        "intelligence": 75,
+        "emotional_intelligence": 72,
+        "evil": 40,
+        "selflessness": 50,
+        "ambition": 80,
+        "combat_skill": 85,
+        "political_cunning": 70,
+        "religious_devotion": 42
+      },
+      "relationships": [
+        {
+          "npc_id": "greyjoy_001",
+          "relationship_type": "family",
+          "strength": 90
+        },
+        {
+          "npc_id": "greyjoy_002",
+          "relationship_type": "family",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Commanding Ironborn ships with fierce independence",
+      "location": "Pyke",
+      "status": "alive"
+    },
+    {
+      "id": "greyjoy_004",
+      "name": "Euron Greyjoy",
+      "house": "House Greyjoy",
+      "age": 42,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 35,
+        "loyalty": 60,
+        "intelligence": 80,
+        "emotional_intelligence": 85,
+        "evil": 70,
+        "selflessness": 20,
+        "ambition": 95,
+        "combat_skill": 82,
+        "political_cunning": 90,
+        "religious_devotion": 35
+      },
+      "relationships": [
+        {
+          "npc_id": "greyjoy_001",
+          "relationship_type": "family",
+          "strength": 70
+        }
+      ],
+      "current_behavior": "Scheming for power through cunning and ruthlessness",
+      "location": "Pyke",
+      "status": "alive"
+    },
+    {
+      "id": "tully_001",
+      "name": "Lord Hoster Tully",
+      "house": "House Tully",
+      "age": 55,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 72,
+        "loyalty": 78,
+        "intelligence": 68,
+        "emotional_intelligence": 70,
+        "evil": 18,
+        "selflessness": 68,
+        "ambition": 52,
+        "combat_skill": 62,
+        "political_cunning": 65,
+        "religious_devotion": 58
+      },
+      "relationships": [
+        {
+          "npc_id": "tully_002",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Managing riverlands affairs with traditional Tully values",
+      "location": "Riverrun",
+      "status": "alive"
+    },
+    {
+      "id": "tully_002",
+      "name": "Lady Catelyn Tully",
+      "house": "House Tully",
+      "age": 35,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 75,
+        "loyalty": 85,
+        "intelligence": 72,
+        "emotional_intelligence": 78,
+        "evil": 12,
+        "selflessness": 75,
+        "ambition": 45,
+        "combat_skill": 35,
+        "political_cunning": 68,
+        "religious_devotion": 65
+      },
+      "relationships": [
+        {
+          "npc_id": "tully_001",
+          "relationship_type": "family",
+          "strength": 85
+        },
+        {
+          "npc_id": "stark_002",
+          "relationship_type": "family",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Balancing family duties with political responsibilities",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "tully_003",
+      "name": "Ser Edmure Tully",
+      "house": "House Tully",
+      "age": 32,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 68,
+        "loyalty": 82,
+        "intelligence": 60,
+        "emotional_intelligence": 65,
+        "evil": 10,
+        "selflessness": 72,
+        "ambition": 40,
+        "combat_skill": 70,
+        "political_cunning": 55,
+        "religious_devotion": 52
+      },
+      "relationships": [
+        {
+          "npc_id": "tully_001",
+          "relationship_type": "family",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Eagerly serving his house with youthful enthusiasm",
+      "location": "Riverrun",
+      "status": "alive"
+    },
+    {
+      "id": "tyrell_001",
+      "name": "Lord Mace Tyrell",
+      "house": "House Tyrell",
+      "age": 48,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 62,
+        "loyalty": 68,
+        "intelligence": 65,
+        "emotional_intelligence": 70,
+        "evil": 32,
+        "selflessness": 58,
+        "ambition": 75,
+        "combat_skill": 58,
+        "political_cunning": 72,
+        "religious_devotion": 62
+      },
+      "relationships": [
+        {
+          "npc_id": "tyrell_002",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Navigating court politics to advance Tyrell influence",
+      "location": "Highgarden",
+      "status": "alive"
+    },
+    {
+      "id": "tyrell_002",
+      "name": "Lady Olenna Tyrell",
+      "house": "House Tyrell",
+      "age": 65,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 65,
+        "loyalty": 75,
+        "intelligence": 85,
+        "emotional_intelligence": 90,
+        "evil": 38,
+        "selflessness": 60,
+        "ambition": 80,
+        "combat_skill": 25,
+        "political_cunning": 92,
+        "religious_devotion": 58
+      },
+      "relationships": [
+        {
+          "npc_id": "tyrell_001",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Sharply critiquing court politics while protecting family interests",
+      "location": "Highgarden",
+      "status": "alive"
+    },
+    {
+      "id": "tyrell_003",
+      "name": "Ser Loras Tyrell",
+      "house": "House Tyrell",
+      "age": 22,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 75,
+        "loyalty": 70,
+        "intelligence": 62,
+        "emotional_intelligence": 68,
+        "evil": 15,
+        "selflessness": 75,
+        "ambition": 65,
+        "combat_skill": 88,
+        "political_cunning": 60,
+        "religious_devotion": 55
+      },
+      "relationships": [
+        {
+          "npc_id": "tyrell_001",
+          "relationship_type": "family",
+          "strength": 88
+        }
+      ],
+      "current_behavior": "Competing in tourneys while serving as a symbol of Tyrell strength",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "martell_001",
+      "name": "Prince Doran Martell",
+      "house": "House Martell",
+      "age": 52,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 68,
+        "loyalty": 82,
+        "intelligence": 80,
+        "emotional_intelligence": 75,
+        "evil": 25,
+        "selflessness": 62,
+        "ambition": 70,
+        "combat_skill": 45,
+        "political_cunning": 85,
+        "religious_devotion": 52
+      },
+      "relationships": [
+        {
+          "npc_id": "martell_002",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Patiently planning Dorne's political moves with careful strategy",
+      "location": "Sunspear",
+      "status": "alive"
+    },
+    {
+      "id": "martell_002",
+      "name": "Princess Ellaria Sand",
+      "house": "House Martell",
+      "age": 38,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 60,
+        "loyalty": 88,
+        "intelligence": 75,
+        "emotional_intelligence": 82,
+        "evil": 45,
+        "selflessness": 65,
+        "ambition": 75,
+        "combat_skill": 65,
+        "political_cunning": 80,
+        "religious_devotion": 50
+      },
+      "relationships": [
+        {
+          "npc_id": "martell_001",
+          "relationship_type": "ally",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Supporting Dorne's independence with passionate dedication",
+      "location": "Sunspear",
+      "status": "alive"
+    },
+    {
+      "id": "martell_003",
+      "name": "Obara Sand",
+      "house": "House Martell",
+      "age": 29,
+      "gender": "female",
+      "role": "knight",
+      "traits": {
+        "honor": 58,
+        "loyalty": 85,
+        "intelligence": 65,
+        "emotional_intelligence": 70,
+        "evil": 35,
+        "selflessness": 55,
+        "ambition": 70,
+        "combat_skill": 85,
+        "political_cunning": 65,
+        "religious_devotion": 45
+      },
+      "relationships": [
+        {
+          "npc_id": "martell_001",
+          "relationship_type": "family",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Training relentlessly while awaiting opportunity to serve Dorne",
+      "location": "Sunspear",
+      "status": "alive"
+    },
+    {
+      "id": "arryn_001",
+      "name": "Lady Lysa Arryn",
+      "house": "House Arryn",
+      "age": 36,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 45,
+        "loyalty": 75,
+        "intelligence": 55,
+        "emotional_intelligence": 60,
+        "evil": 50,
+        "selflessness": 40,
+        "ambition": 65,
+        "combat_skill": 25,
+        "political_cunning": 58,
+        "religious_devotion": 65
+      },
+      "relationships": [
+        {
+          "npc_id": "arryn_002",
+          "relationship_type": "family",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Paranoidly protecting her son and the Eyrie's isolation",
+      "location": "The Eyrie",
+      "status": "alive"
+    },
+    {
+      "id": "arryn_002",
+      "name": "Robin Arryn",
+      "house": "House Arryn",
+      "age": 12,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 50,
+        "loyalty": 65,
+        "intelligence": 45,
+        "emotional_intelligence": 55,
+        "evil": 20,
+        "selflessness": 48,
+        "ambition": 35,
+        "combat_skill": 20,
+        "political_cunning": 40,
+        "religious_devotion": 58
+      },
+      "relationships": [
+        {
+          "npc_id": "arryn_001",
+          "relationship_type": "family",
+          "strength": 90
+        }
+      ],
+      "current_behavior": "Learning lordship under his mother's protective guidance",
+      "location": "The Eyrie",
+      "status": "alive"
+    },
+    {
+      "id": "arryn_003",
+      "name": "Ser Vance Corbray",
+      "house": "House Arryn",
+      "age": 40,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 65,
+        "loyalty": 72,
+        "intelligence": 60,
+        "emotional_intelligence": 65,
+        "evil": 25,
+        "selflessness": 58,
+        "ambition": 55,
+        "combat_skill": 78,
+        "political_cunning": 52,
+        "religious_devotion": 55
+      },
+      "relationships": [
+        {
+          "npc_id": "arryn_001",
+          "relationship_type": "ally",
+          "strength": 70
+        }
+      ],
+      "current_behavior": "Serving as a loyal knight to House Arryn with traditional values",
+      "location": "The Eyrie",
+      "status": "alive"
+    },
+    {
+      "id": "dothraki_001",
+      "name": "Khal Ogo",
+      "house": "Dothraki Clans",
+      "age": 34,
+      "gender": "male",
+      "role": "dothraki",
+      "traits": {
+        "honor": 55,
+        "loyalty": 80,
+        "intelligence": 50,
+        "emotional_intelligence": 60,
+        "evil": 45,
+        "selflessness": 40,
+        "ambition": 65,
+        "combat_skill": 90,
+        "political_cunning": 55,
+        "religious_devotion": 70
+      },
+      "relationships": [
+        {
+          "npc_id": "dothraki_002",
+          "relationship_type": "ally",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Leading his khalasar through the great grass sea with pride",
+      "location": "Dothraki Sea",
+      "status": "alive"
+    },
+    {
+      "id": "dothraki_002",
+      "name": "Cohollo",
+      "house": "Dothraki Clans",
+      "age": 45,
+      "gender": "male",
+      "role": "dothraki",
+      "traits": {
+        "honor": 60,
+        "loyalty": 85,
+        "intelligence": 65,
+        "emotional_intelligence": 68,
+        "evil": 40,
+        "selflessness": 45,
+        "ambition": 70,
+        "combat_skill": 92,
+        "political_cunning": 62,
+        "religious_devotion": 72
+      },
+      "relationships": [
+        {
+          "npc_id": "dothraki_001",
+          "relationship_type": "ally",
+          "strength": 75
+        }
+      ],
+      "current_behavior": "Serving as a wise bloodrider with deep knowledge of traditions",
+      "location": "Dothraki Sea",
+      "status": "alive"
+    },
+    {
+      "id": "dothraki_003",
+      "name": "Qotho",
+      "house": "Dothraki Clans",
+      "age": 28,
+      "gender": "male",
+      "role": "dothraki",
+      "traits": {
+        "honor": 50,
+        "loyalty": 75,
+        "intelligence": 45,
+        "emotional_intelligence": 55,
+        "evil": 50,
+        "selflessness": 35,
+        "ambition": 60,
+        "combat_skill": 88,
+        "political_cunning": 50,
+        "religious_devotion": 65
+      },
+      "relationships": [
+        {
+          "npc_id": "dothraki_001",
+          "relationship_type": "ally",
+          "strength": 70
+        }
+      ],
+      "current_behavior": "Eagerly serving his khal with fierce loyalty and aggression",
+      "location": "Dothraki Sea",
+      "status": "alive"
+    },
+    {
+      "id": "stark_016",
+      "name": "Ser Brandon Stark",
+      "house": "House Stark",
+      "age": 31,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 80,
+        "loyalty": 88,
+        "intelligence": 70,
+        "emotional_intelligence": 74,
+        "evil": 10,
+        "selflessness": 76,
+        "ambition": 38,
+        "combat_skill": 79,
+        "political_cunning": 52,
+        "religious_devotion": 63
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "family",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Guarding the northern borders with watchful vigilance",
+      "location": "The North",
+      "status": "alive"
+    },
+    {
+      "id": "stark_017",
+      "name": "Lady Arya Stark",
+      "house": "House Stark",
+      "age": 16,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 77,
+        "loyalty": 87,
+        "intelligence": 73,
+        "emotional_intelligence": 71,
+        "evil": 13,
+        "selflessness": 73,
+        "ambition": 42,
+        "combat_skill": 68,
+        "political_cunning": 54,
+        "religious_devotion": 59
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_002",
+          "relationship_type": "family",
+          "strength": 92
+        }
+      ],
+      "current_behavior": "Practicing with needle while learning about duty and honor",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_018",
+      "name": "Maester Luwin Stark",
+      "house": "House Stark",
+      "age": 48,
+      "gender": "male",
+      "role": "maester",
+      "traits": {
+        "honor": 79,
+        "loyalty": 86,
+        "intelligence": 87,
+        "emotional_intelligence": 73,
+        "evil": 6,
+        "selflessness": 83,
+        "ambition": 24,
+        "combat_skill": 38,
+        "political_cunning": 58,
+        "religious_devotion": 67
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_003",
+          "relationship_type": "ally",
+          "strength": 78
+        }
+      ],
+      "current_behavior": "Studying maps and sending ravens to bannermen",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_019",
+      "name": "Ser Hal Mollen",
+      "house": "House Stark",
+      "age": 35,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 76,
+        "loyalty": 91,
+        "intelligence": 62,
+        "emotional_intelligence": 67,
+        "evil": 9,
+        "selflessness": 78,
+        "ambition": 28,
+        "combat_skill": 76,
+        "political_cunning": 42,
+        "religious_devotion": 56
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "servant",
+          "strength": 82
+        }
+      ],
+      "current_behavior": "Training new recruits in northern combat techniques",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "stark_020",
+      "name": "Lady Wylla Manderly",
+      "house": "House Stark",
+      "age": 29,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 74,
+        "loyalty": 84,
+        "intelligence": 68,
+        "emotional_intelligence": 75,
+        "evil": 11,
+        "selflessness": 74,
+        "ambition": 36,
+        "combat_skill": 48,
+        "political_cunning": 56,
+        "religious_devotion": 61
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_002",
+          "relationship_type": "ally",
+          "strength": 76
+        }
+      ],
+      "current_behavior": "Organizing supplies for the Stark household",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_013",
+      "name": "Ser Stafford Lannister",
+      "house": "House Lannister",
+      "age": 44,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 40,
+        "loyalty": 80,
+        "intelligence": 66,
+        "emotional_intelligence": 68,
+        "evil": 32,
+        "selflessness": 44,
+        "ambition": 66,
+        "combat_skill": 74,
+        "political_cunning": 68,
+        "religious_devotion": 42
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "family",
+          "strength": 82
+        }
+      ],
+      "current_behavior": "Commanding Lannister forces with cautious strategy",
+      "location": "Lannisport",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_014",
+      "name": "Lady Joanna Lannister",
+      "house": "House Lannister",
+      "age": 34,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 46,
+        "loyalty": 76,
+        "intelligence": 72,
+        "emotional_intelligence": 76,
+        "evil": 22,
+        "selflessness": 48,
+        "ambition": 52,
+        "combat_skill": 28,
+        "political_cunning": 64,
+        "religious_devotion": 46
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_005",
+          "relationship_type": "family",
+          "strength": 86
+        }
+      ],
+      "current_behavior": "Managing family affairs with diplomatic finesse",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_015",
+      "name": "Maester Creyden Lannister",
+      "house": "House Lannister",
+      "age": 52,
+      "gender": "male",
+      "role": "maester",
+      "traits": {
+        "honor": 52,
+        "loyalty": 78,
+        "intelligence": 83,
+        "emotional_intelligence": 72,
+        "evil": 18,
+        "selflessness": 63,
+        "ambition": 38,
+        "combat_skill": 22,
+        "political_cunning": 70,
+        "religious_devotion": 47
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "servant",
+          "strength": 78
+        }
+      ],
+      "current_behavior": "Advising on matters of state with scholarly precision",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_016",
+      "name": "Ser Martyn Lannister",
+      "house": "House Lannister",
+      "age": 27,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 41,
+        "loyalty": 79,
+        "intelligence": 64,
+        "emotional_intelligence": 69,
+        "evil": 29,
+        "selflessness": 41,
+        "ambition": 63,
+        "combat_skill": 79,
+        "political_cunning": 61,
+        "religious_devotion": 39
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_001",
+          "relationship_type": "family",
+          "strength": 77
+        }
+      ],
+      "current_behavior": "Proving his worth in service to House Lannister",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "lannister_017",
+      "name": "Lady Myranda Lannister",
+      "house": "House Lannister",
+      "age": 23,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 43,
+        "loyalty": 74,
+        "intelligence": 69,
+        "emotional_intelligence": 74,
+        "evil": 26,
+        "selflessness": 43,
+        "ambition": 57,
+        "combat_skill": 24,
+        "political_cunning": 66,
+        "religious_devotion": 41
+      },
+      "relationships": [
+        {
+          "npc_id": "lannister_004",
+          "relationship_type": "family",
+          "strength": 72
+        }
+      ],
+      "current_behavior": "Learning courtly manners with quiet ambition",
+      "location": "Casterly Rock",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_011",
+      "name": "Lord Alester Florent",
+      "house": "House Baratheon",
+      "age": 46,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 62,
+        "loyalty": 78,
+        "intelligence": 72,
+        "emotional_intelligence": 68,
+        "evil": 32,
+        "selflessness": 58,
+        "ambition": 72,
+        "combat_skill": 68,
+        "political_cunning": 74,
+        "religious_devotion": 58
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_002",
+          "relationship_type": "ally",
+          "strength": 82
+        }
+      ],
+      "current_behavior": "Supporting Stannis with strategic counsel and resources",
+      "location": "Dragonstone",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_012",
+      "name": "Lady Marya Baratheon",
+      "house": "House Baratheon",
+      "age": 39,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 58,
+        "loyalty": 74,
+        "intelligence": 66,
+        "emotional_intelligence": 72,
+        "evil": 28,
+        "selflessness": 54,
+        "ambition": 68,
+        "combat_skill": 32,
+        "political_cunning": 62,
+        "religious_devotion": 52
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_001",
+          "relationship_type": "ally",
+          "strength": 76
+        }
+      ],
+      "current_behavior": "Managing household affairs with traditional Baratheon values",
+      "location": "Storm's End",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_013",
+      "name": "Ser Rolland Storm",
+      "house": "House Baratheon",
+      "age": 37,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 64,
+        "loyalty": 80,
+        "intelligence": 62,
+        "emotional_intelligence": 66,
+        "evil": 24,
+        "selflessness": 62,
+        "ambition": 58,
+        "combat_skill": 82,
+        "political_cunning": 56,
+        "religious_devotion": 48
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_003",
+          "relationship_type": "ally",
+          "strength": 78
+        }
+      ],
+      "current_behavior": "Serving Renly with fierce loyalty and combat readiness",
+      "location": "King's Landing",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_014",
+      "name": "Maester Cressen Baratheon",
+      "house": "House Baratheon",
+      "age": 54,
+      "gender": "male",
+      "role": "maester",
+      "traits": {
+        "honor": 66,
+        "loyalty": 76,
+        "intelligence": 84,
+        "emotional_intelligence": 70,
+        "evil": 20,
+        "selflessness": 68,
+        "ambition": 48,
+        "combat_skill": 26,
+        "political_cunning": 64,
+        "religious_devotion": 62
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_001",
+          "relationship_type": "servant",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Advising on matters of governance with scholarly wisdom",
+      "location": "Dragonstone",
+      "status": "alive"
+    },
+    {
+      "id": "baratheon_015",
+      "name": "Lady Delena Baratheon",
+      "house": "House Baratheon",
+      "age": 32,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 56,
+        "loyalty": 72,
+        "intelligence": 68,
+        "emotional_intelligence": 74,
+        "evil": 26,
+        "selflessness": 56,
+        "ambition": 64,
+        "combat_skill": 34,
+        "political_cunning": 66,
+        "religious_devotion": 50
+      },
+      "relationships": [
+        {
+          "npc_id": "baratheon_002",
+          "relationship_type": "ally",
+          "strength": 74
+        }
+      ],
+      "current_behavior": "Supporting Stannis while maintaining family connections",
+      "location": "Dragonstone",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_009",
+      "name": "Ser Barristan Selmy",
+      "house": "House Targaryen",
+      "age": 41,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 85,
+        "loyalty": 88,
+        "intelligence": 70,
+        "emotional_intelligence": 75,
+        "evil": 5,
+        "selflessness": 80,
+        "ambition": 45,
+        "combat_skill": 92,
+        "political_cunning": 65,
+        "religious_devotion": 58
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_001",
+          "relationship_type": "ally",
+          "strength": 85
+        }
+      ],
+      "current_behavior": "Serving with unwavering honor and knightly devotion",
+      "location": "Essos",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_010",
+      "name": "Lady Rhaella Targaryen",
+      "house": "House Targaryen",
+      "age": 26,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 68,
+        "loyalty": 86,
+        "intelligence": 74,
+        "emotional_intelligence": 70,
+        "evil": 18,
+        "selflessness": 72,
+        "ambition": 82,
+        "combat_skill": 42,
+        "political_cunning": 74,
+        "religious_devotion": 52
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_002",
+          "relationship_type": "family",
+          "strength": 88
+        }
+      ],
+      "current_behavior": "Planning their return to Westeros with quiet determination",
+      "location": "Essos",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_011",
+      "name": "Maester Pylos Targaryen",
+      "house": "House Targaryen",
+      "age": 49,
+      "gender": "male",
+      "role": "maester",
+      "traits": {
+        "honor": 64,
+        "loyalty": 82,
+        "intelligence": 86,
+        "emotional_intelligence": 72,
+        "evil": 12,
+        "selflessness": 76,
+        "ambition": 52,
+        "combat_skill": 28,
+        "political_cunning": 68,
+        "religious_devotion": 60
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_001",
+          "relationship_type": "servant",
+          "strength": 82
+        }
+      ],
+      "current_behavior": "Studying ancient texts to aid in their conquest planning",
+      "location": "Essos",
+      "status": "alive"
+    },
+    {
+      "id": "targaryen_012",
+      "name": "Ser Jorah's Father",
+      "house": "House Targaryen",
+      "age": 42,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 60,
+        "loyalty": 80,
+        "intelligence": 76,
+        "emotional_intelligence": 72,
+        "evil": 22,
+        "selflessness": 64,
+        "ambition": 68,
+        "combat_skill": 74,
+        "political_cunning": 76,
+        "religious_devotion": 48
+      },
+      "relationships": [
+        {
+          "npc_id": "targaryen_003",
+          "relationship_type": "family",
+          "strength": 84
+        }
+      ],
+      "current_behavior": "Maintaining exile status while supporting the Targaryen cause",
+      "location": "Essos",
+      "status": "alive"
+    },
+    {
+      "id": "greyjoy_005",
+      "name": "Lord Sawane Botley",
+      "house": "House Greyjoy",
+      "age": 47,
+      "gender": "male",
+      "role": "lord",
+      "traits": {
+        "honor": 48,
+        "loyalty": 78,
+        "intelligence": 72,
+        "emotional_intelligence": 68,
+        "evil": 48,
+        "selflessness": 34,
+        "ambition": 78,
+        "combat_skill": 72,
+        "political_cunning": 74,
+        "religious_devotion": 44
+      },
+      "relationships": [
+        {
+          "npc_id": "greyjoy_001",
+          "relationship_type": "ally",
+          "strength": 82
+        }
+      ],
+      "current_behavior": "Planning naval strategies for Ironborn independence",
+      "location": "Pyke",
+      "status": "alive"
+    },
+    {
+      "id": "greyjoy_006",
+      "name": "Lady Alannys Greyjoy",
+      "house": "House Greyjoy",
+      "age": 39,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 52,
+        "loyalty": 82,
+        "intelligence": 68,
+        "emotional_intelligence": 74,
+        "evil": 38,
+        "selflessness": 48,
+        "ambition": 72,
+        "combat_skill": 52,
+        "political_cunning": 68,
+        "religious_devotion": 46
+      },
+      "relationships": [
+        {
+          "npc_id": "greyjoy_001",
+          "relationship_type": "family",
+          "strength": 88
+        }
+      ],
+      "current_behavior": "Supporting family ambitions while maintaining household order",
+      "location": "Pyke",
+      "status": "alive"
+    },
+    {
+      "id": "greyjoy_007",
+      "name": "Ser Harren Halfhand",
+      "house": "House Greyjoy",
+      "age": 33,
+      "gender": "male",
+      "role": "knight",
+      "traits": {
+        "honor": 46,
+        "loyalty": 76,
+        "intelligence": 64,
+        "emotional_intelligence": 62,
+        "evil": 42,
+        "selflessness": 36,
+        "ambition": 74,
+        "combat_skill": 84,
+        "political_cunning": 62,
+        "religious_devotion": 40
+      },
+      "relationships": [
+        {
+          "npc_id": "greyjoy_003",
+          "relationship_type": "ally",
+          "strength": 76
+        }
+      ],
+      "current_behavior": "Leading raids with fierce Greyjoy determination",
+      "location": "Iron Islands",
+      "status": "alive"
+    },
+    {
+      "id": "tully_004",
+      "name": "Lady Minisa Tully",
+      "house": "House Tully",
+      "age": 37,
+      "gender": "female",
+      "role": "lady",
+      "traits": {
+        "honor": 70,
+        "loyalty": 80,
+        "intelligence": 74,
+        "emotional_intelligence": 76,
+        "evil": 14,
+        "selflessness": 70,
+        "ambition": 48,
+        "combat_skill": 38,
+        "political_cunning": 70,
+        "religious_devotion": 62
+      },
+      "relationships": [
+        {
+          "npc_id": "t

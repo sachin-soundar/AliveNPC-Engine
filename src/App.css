@@ -1,0 +1,702 @@
+.app {
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app-header {
+  background-color: #2d2d2d;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #444;
+}
+
+.app-header h1 {
+  margin: 0;
+  color: #4a9eff;
+  font-size: 1.8rem;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.load-btn, .config-btn, .restart-btn {
+  background-color: #4a9eff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.config-btn {
+  background-color: #2196F3;
+}
+
+.restart-btn {
+  background-color: #FF9800;
+}
+
+.load-btn:hover {
+  background-color: #357abd;
+}
+
+.config-btn:hover {
+  background-color: #1976D2;
+}
+
+.restart-btn:hover {
+  background-color: #F57C00;
+}
+
+/* Two-line NPC Cards - Enhanced styles defined later in file */
+
+.npc-line-1 {
+  color: #fff;
+  margin-bottom: 4px;
+  word-wrap: break-word;
+}
+
+.npc-line-2 {
+  color: #ccc;
+  margin-bottom: 2px;
+}
+
+.stats-display {
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.stat-group {
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.stat-group:last-child {
+  margin-bottom: 0;
+}
+
+.stat-group strong {
+  color: #4a9eff;
+  margin-right: 8px;
+}
+
+/* Rate Limit Status Styles */
+.rate-limit-ok {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.rate-limit-warning {
+  color: #FF9800;
+  font-weight: bold;
+}
+
+.rate-limit-error {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.rate-limit-message {
+  color: #f44336;
+  font-size: 11px;
+  font-weight: bold;
+  display: block;
+  margin-top: 2px;
+}
+
+/* Old NPC styles removed - using two-line format now */
+
+/* Event Stack Cards */
+.events-stack {
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-top: 1rem;
+}
+
+.event-card-stack {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.event-pending {
+  opacity: 0.6;
+  border-left: 4px solid #666;
+}
+
+.event-running {
+  border-left: 4px solid #4CAF50;
+  background-color: #1e3a1e;
+  box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+}
+
+.event-completed {
+  opacity: 0.4;
+  border-left: 4px solid #888;
+  background-color: #2a2a2a;
+}
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.event-number {
+  color: #4a9eff;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.event-status-indicator {
+  font-size: 1.2rem;
+}
+
+.event-title {
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.event-description {
+  color: #cccccc;
+  font-size: 0.8rem;
+  line-height: 1.4;
+}
+
+/* Manual Start Button */
+.manual-start-btn {
+  background-color: #FF6B35;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.85rem;
+  transition: background-color 0.3s;
+}
+
+.manual-start-btn:hover {
+  background-color: #E55A2B;
+}
+
+.manual-start-btn:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+/* Configuration Modal */
+.config-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.config-content {
+  background: #2d2d2d;
+  padding: 30px;
+  border-radius: 10px;
+  width: 500px;
+  max-width: 90vw;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid #444;
+}
+
+.config-content h3 {
+  margin-top: 0;
+  color: #4a9eff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.config-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.config-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.config-field label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.config-input, .config-select {
+  padding: 10px;
+  border: 2px solid #666;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.config-input:focus, .config-select:focus {
+  outline: none;
+  border-color: #4a9eff;
+}
+
+.config-status {
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.status-connected {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.status-disconnected {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.config-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.config-save-btn, .config-cancel-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.config-save-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.config-save-btn:hover {
+  background-color: #45a049;
+}
+
+.config-cancel-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.config-cancel-btn:hover {
+  background-color: #d32f2f;
+}
+
+.main-content {
+  display: flex;
+  height: calc(100vh - 80px);
+}
+
+.left-panel {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  border-right: 2px solid #444;
+}
+
+.left-panel h2 {
+  margin-top: 0;
+  color: #4a9eff;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.npc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.npc-card {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 1rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.npc-header {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.npc-id {
+  color: #ff6b6b;
+}
+
+.npc-name {
+  color: #4ecdc4;
+}
+
+.npc-basic-info {
+  margin-bottom: 0.5rem;
+  color: #ffd93d;
+}
+
+.npc-traits {
+  margin-bottom: 0.5rem;
+  color: #95e1d3;
+  font-size: 0.8rem;
+}
+
+.npc-relationships {
+  margin-bottom: 0.5rem;
+  color: #f38ba8;
+}
+
+.npc-location {
+  margin-bottom: 0.5rem;
+  color: #a6e3a1;
+}
+
+.npc-status {
+  margin-bottom: 0.5rem;
+  color: #74c0fc;
+}
+
+.npc-behavior {
+  color: #ffb3ba;
+  font-style: italic;
+}
+
+.right-panel {
+  width: 400px;
+  background-color: #2d2d2d;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.world-events-section h3 {
+  margin-top: 0;
+  color: #4a9eff;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.5rem;
+}
+
+.current-event {
+  margin-bottom: 2rem;
+}
+
+.event-card {
+  background-color: #3d3d3d;
+  border: 1px solid #555;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.event-card h4 {
+  margin: 0 0 0.5rem 0;
+  color: #ff6b6b;
+}
+
+.event-card p {
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+.event-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.timer-controls {
+  background-color: #3d3d3d;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #555;
+}
+
+.timer-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: #ffffff;
+}
+
+.timer-controls input {
+  background-color: #1a1a1a;
+  border: 1px solid #666;
+  color: #ffffff;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 80px;
+}
+
+.control-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.start-btn, .stop-btn, .next-btn, .send-btn {
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 0.85rem;
+  transition: background-color 0.3s;
+}
+
+.start-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.start-btn:hover {
+  background-color: #218838;
+}
+
+.stop-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.stop-btn:hover {
+  background-color: #c82333;
+}
+
+.next-btn {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.next-btn:hover {
+  background-color: #e0a800;
+}
+
+.send-btn {
+  background-color: #17a2b8;
+  color: white;
+  margin-left: 0.5rem;
+}
+
+.send-btn:hover {
+  background-color: #138496;
+}
+
+.custom-event {
+  background-color: #3d3d3d;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.custom-event-input {
+  flex: 1;
+  background-color: #1a1a1a;
+  border: 1px solid #666;
+  color: #ffffff;
+  padding: 0.4rem;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.custom-event-input::placeholder {
+  color: #999;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
+
+/* Loading Animation */
+.loading-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  border-radius: 8px;
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #333;
+  border-top: 4px solid #4a9eff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+.loading-text {
+  color: #4a9eff;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Flash Animation for New Data */
+.flash-animation {
+  animation: flashEffect 1s ease-in-out;
+}
+
+@keyframes flashEffect {
+  0% { background-color: transparent; }
+  25% { background-color: rgba(74, 158, 255, 0.2); }
+  50% { background-color: rgba(74, 158, 255, 0.4); }
+  75% { background-color: rgba(74, 158, 255, 0.2); }
+  100% { background-color: transparent; }
+}
+
+/* Enhanced NPC Cards with House Images */
+.npc-card-two-line {
+  background: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-size: 11px;
+  line-height: 1.4;
+  font-family: 'Courier New', monospace;
+  position: relative;
+  cursor: help;
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+}
+
+.npc-house-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.npc-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* House-specific background colors */
+.npc-card-stark {
+  background: linear-gradient(135deg, #1a2332 0%, #2a2a2a 100%);
+  border-left: 3px solid #4a6fa5;
+}
+
+.npc-card-lannister {
+  background: linear-gradient(135deg, #3d2817 0%, #2a2a2a 100%);
+  border-left: 3px solid #d4af37;
+}
+
+.npc-card-baratheon {
+  background: linear-gradient(135deg, #2d2617 0%, #2a2a2a 100%);
+  border-left: 3px solid #ffd700;
+}
+
+.npc-card-targaryen {
+  background: linear-gradient(135deg, #2d1a1a 0%, #2a2a2a 100%);
+  border-left: 3px solid #8b0000;
+}
+
+.npc-card-greyjoy {
+  background: linear-gradient(135deg, #1a2d2d 0%, #2a2a2a 100%);
+  border-left: 3px solid #2f4f4f;
+}
+
+.npc-card-tully {
+  background: linear-gradient(135deg, #1a2a3d 0%, #2a2a2a 100%);
+  border-left: 3px solid #4169e1;
+}
+
+.npc-card-tyrell {
+  background: linear-gradient(135deg, #1a3d1a 0%, #2a2a2a 100%);
+  border-left: 3px solid #228b22;
+}
+
+.npc-card-two-line:hover {
+  background-color: rgba(74, 158, 255, 0.1);
+  border-left: 3px solid #4a9eff;
+  transition: all 0.3s ease;
+}
+
+/* Removed side tooltip block - keeping only native browser tooltip */
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  .main-content {
+    flex-direction: column;
+  }
+  
+  .right-panel {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .left-panel {
+    height: calc(100vh - 380px);
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the NPC"
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name of the NPC including title if applicable"
+    },
+    "house": {
+      "type": "string",
+      "description": "House affiliation of the NPC"
+    },
+    "age": {
+      "type": "integer",
+      "minimum": 12,
+      "maximum": 80,
+      "description": "Age of the NPC in years"
+    },
+    "gender": {
+      "type": "string",
+      "enum": ["male", "female", "non-binary"],
+      "description": "Gender of the NPC"
+    },
+    "role": {
+      "type": "string",
+      "enum": ["lord", "lady", "knight", "maester", "merchant", "soldier", "servant", "craftsman", "septon", "dothraki"],
+      "description": "Role or occupation of the NPC"
+    },
+    "traits": {
+      "type": "object",
+      "properties": {
+        "honor": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "How honorable the NPC is (0-100%)"
+        },
+        "loyalty": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Loyalty to house/family vs personal gain (0-100%)"
+        },
+        "intelligence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Strategic thinking and book smarts (0-100%)"
+        },
+        "emotional_intelligence": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Ability to read people and manipulate (0-100%)"
+        },
+        "evil": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Tendency toward cruelty and malevolence (0-100%)"
+        },
+        "selflessness": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Willingness to sacrifice for others (0-100%)"
+        },
+        "ambition": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Desire for power and advancement (0-100%)"
+        },
+        "combat_skill": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Fighting ability and military prowess (0-100%)"
+        },
+        "political_cunning": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Scheming ability and alliance forming (0-100%)"
+        },
+        "religious_devotion": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Devotion to faith (Old Gods, Seven, Lord of Light) (0-100%)"
+        }
+      },
+      "required": [
+        "honor",
+        "loyalty",
+        "intelligence",
+        "emotional_intelligence",
+        "evil",
+        "selflessness",
+        "ambition",
+        "combat_skill",
+        "political_cunning",
+        "religious_devotion"
+      ]
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "npc_id": {
+            "type": "string",
+            "description": "ID of related NPC"
+          },
+          "relationship_type": {
+            "type": "string",
+            "enum": ["family", "ally", "enemy", "romantic", "mentor", "servant"],
+            "description": "Type of relationship"
+          },
+          "strength": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Strength of relationship (0-100%)"
+          }
+        },
+        "required": ["npc_id", "relationship_type", "strength"]
+      }
+    },
+    "current_behavior": {
+      "type": "string",
+      "description": "Current behavior or mood of the NPC in natural language"
+    },
+    "location": {
+      "type": "string",
+      "description": "Current location of the NPC"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["alive", "dead", "exiled", "imprisoned", "missing"],
+      "description": "Current status of the NPC"
+    }
+  },
+  "required": [
+    "id",
+    "name",
+    "house",
+    "age",
+    "gender",
+    "role",
+    "traits",
+    "relationships",
+    "current_behavior",
+    "location",
+    "status"
+  ]
+}
