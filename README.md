@@ -1,6 +1,8 @@
-# NPC Simulation Arena - Game of Thrones AI Engine
+# LiveNPC - Agentic NPC Engine for Game Development
 
-A React-based simulation arena for Game of Thrones NPCs powered by AI, featuring real-time character evolution based on world events.
+LiveNPC is a game dev engine which can generate agentic NPCs, who are dynamic, aware and reactive to the changes in the game world. The NPCs are all controlled by the AI engine (LiveNPC), each harboring a unique character identity, personality trait and circumstance, which will then be used to finely control their reaction to situations and surroundings.
+
+This React-based simulation arena demonstrates LiveNPC's capabilities using Game of Thrones characters, featuring real-time character evolution based on world events.
 
 ## Features
 
@@ -31,7 +33,7 @@ Create a `.env` file in the project root:
 ```env
 REACT_APP_CEREBRAS_API_KEY=your_cerebras_api_key_here
 REACT_APP_CEREBRAS_API_URL=https://api.cerebras.ai/v1/chat/completions
-REACT_APP_MODEL_NAME=qwen2.5-72b
+REACT_APP_MODEL_NAME=qwen-3-coder-480b
 ```
 
 ### 3. Get Cerebras API Access
@@ -40,7 +42,7 @@ REACT_APP_MODEL_NAME=qwen2.5-72b
 3. Generate an API key
 4. Choose from available models:
    - **qwen-3-coder-480b** (Recommended - Latest Qwen 3 Coder 480B model)
-   - **qwen2.5-72b** (Good for complex reasoning)
+   - **qwen2.5-72b** (Faster, Cheaper, Good for complex reasoning)
    - **llama3.1-70b** (Good balance of speed and quality)
    - **llama3.1-8b** (Fastest, lower quality)
 
@@ -66,7 +68,7 @@ NPC Persona (with current behavior) × World Event = New Behavior + Change in Pe
 4. **Relationship Updates**: Modifies relationship strengths and adds/removes connections as logical
 5. **Status Changes**: Updates location and status only when directly implied by events
 
-### Fallback System
+### Simulation Fallback System
 When the AI engine is unavailable (no API key or connection issues), the system automatically falls back to:
 - Rule-based trait modifications
 - Event-type specific behavior patterns
@@ -76,7 +78,7 @@ When the AI engine is unavailable (no API key or connection issues), the system 
 
 ### Loading Data
 - **Load World Quest**: Loads `world_events.json` with 25+ major Game of Thrones events
-- **Load Persona**: Loads `npcs_100.json` with 100 detailed NPC personas
+- **Load Persona**: Loads `npcs_30.json` with 25 authentic & detailed GoT personas (use this if you are free tier of Cerebras API) 
 
 ### Event Processing
 - **Auto Events**: Processes events every 15 seconds (configurable)
@@ -159,11 +161,6 @@ When the AI engine is unavailable (no API key or connection issues), the system 
    - Check that world events are loaded
    - Verify timer interval is set correctly
 
-### Performance Tips
-
-- **Qwen 2.5 72B**: Best quality but slower response times
-- **Llama 3.1 70B**: Good balance for most use cases
-- **Llama 3.1 8B**: Fastest responses for rapid testing
 
 ## Development
 

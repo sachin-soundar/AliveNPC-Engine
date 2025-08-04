@@ -1,0 +1,54 @@
+.left-panel {
+  flex: 1;
+  padding: 1rem;
+  background: linear-gradient(135deg, #0f1419, #1a1a2e);
+  border-right: 2px solid #0f3460;
+  overflow-y: auto;
+  max-height: calc(100vh - 120px);
+}
+
+.left-panel h2 {
+  color: #e94560;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.npc-list {
+  transition: all 0.5s ease;
+}
+
+.flash-animation {
+  animation: flashGlow 1s ease-in-out;
+}
+
+@keyframes flashGlow {
+  0% {
+    box-shadow: 0 0 5px rgba(233, 69, 96, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(233, 69, 96, 0.8), 0 0 30px rgba(233, 69, 96, 0.6);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(233, 69, 96, 0.3);
+  }
+}
+
+/* Scrollbar styling */
+.left-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.left-panel::-webkit-scrollbar-track {
+  background: rgba(15, 52, 96, 0.3);
+  border-radius: 4px;
+}
+
+.left-panel::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #e94560, #c73650);
+  border-radius: 4px;
+}
+
+.left-panel::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #c73650, #a52a40);
+}

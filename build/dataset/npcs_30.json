@@ -36,6 +36,41 @@
       "status": "alive"
     },
     {
+      "id": "stark_006",
+      "name": "Bran Stark",
+      "house": "House Stark",
+      "age": 10,
+      "gender": "male",
+      "role": "noble_son",
+      "traits": {
+        "honor": 80,
+        "loyalty": 85,
+        "intelligence": 80,
+        "emotional_intelligence": 75,
+        "evil": 5,
+        "selflessness": 80,
+        "ambition": 30,
+        "combat_skill": 40,
+        "political_cunning": 35,
+        "religious_devotion": 60
+      },
+      "relationships": [
+        {
+          "npc_id": "stark_001",
+          "relationship_type": "father",
+          "strength": 90
+        },
+        {
+          "npc_id": "stark_003",
+          "relationship_type": "brother",
+          "strength": 80
+        }
+      ],
+      "current_behavior": "Exploring Winterfell and climbing towers",
+      "location": "Winterfell",
+      "status": "alive"
+    },
+    {
       "id": "stark_002",
       "name": "Catelyn Stark",
       "house": "House Stark",
@@ -175,41 +210,7 @@
       "location": "Winterfell",
       "status": "alive"
     },
-    {
-      "id": "stark_006",
-      "name": "Bran Stark",
-      "house": "House Stark",
-      "age": 10,
-      "gender": "male",
-      "role": "noble_son",
-      "traits": {
-        "honor": 80,
-        "loyalty": 85,
-        "intelligence": 80,
-        "emotional_intelligence": 75,
-        "evil": 5,
-        "selflessness": 80,
-        "ambition": 30,
-        "combat_skill": 40,
-        "political_cunning": 35,
-        "religious_devotion": 60
-      },
-      "relationships": [
-        {
-          "npc_id": "stark_001",
-          "relationship_type": "father",
-          "strength": 90
-        },
-        {
-          "npc_id": "stark_003",
-          "relationship_type": "brother",
-          "strength": 80
-        }
-      ],
-      "current_behavior": "Exploring Winterfell and climbing towers",
-      "location": "Winterfell",
-      "status": "alive"
-    },
+
     {
       "id": "stark_007",
       "name": "Jon Snow",
@@ -385,36 +386,7 @@
       "location": "King's Landing",
       "status": "alive"
     },
-    {
-      "id": "lannister_005",
-      "name": "Kevan Lannister",
-      "house": "House Lannister",
-      "age": 50,
-      "gender": "male",
-      "role": "knight",
-      "traits": {
-        "honor": 70,
-        "loyalty": 90,
-        "intelligence": 75,
-        "emotional_intelligence": 70,
-        "evil": 25,
-        "selflessness": 70,
-        "ambition": 40,
-        "combat_skill": 75,
-        "political_cunning": 70,
-        "religious_devotion": 60
-      },
-      "relationships": [
-        {
-          "npc_id": "lannister_001",
-          "relationship_type": "brother",
-          "strength": 85
-        }
-      ],
-      "current_behavior": "Loyally serving Tywin and managing affairs",
-      "location": "Casterly Rock",
-      "status": "alive"
-    },
+
     {
       "id": "baratheon_001",
       "name": "Robert Baratheon",
@@ -610,30 +582,7 @@
       "location": "The Wall",
       "status": "alive"
     },
-    {
-      "id": "targaryen_004",
-      "name": "Aegon Targaryen",
-      "house": "House Targaryen",
-      "age": 18,
-      "gender": "male",
-      "role": "claimant_prince",
-      "traits": {
-        "honor": 80,
-        "loyalty": 75,
-        "intelligence": 70,
-        "emotional_intelligence": 65,
-        "evil": 20,
-        "selflessness": 65,
-        "ambition": 80,
-        "combat_skill": 75,
-        "political_cunning": 60,
-        "religious_devotion": 60
-      },
-      "relationships": [],
-      "current_behavior": "Preparing for conquest with uncertain identity",
-      "location": "Essos",
-      "status": "alive"
-    },
+
     {
       "id": "greyjoy_001",
       "name": "Balon Greyjoy",
@@ -810,111 +759,6 @@
       "status": "alive"
     },
     {
-      "id": "tully_003",
-      "name": "Brynden Tully",
-      "house": "House Tully",
-      "age": 55,
-      "gender": "male",
-      "role": "knight",
-      "traits": {
-        "honor": 90,
-        "loyalty": 90,
-        "intelligence": 80,
-        "emotional_intelligence": 75,
-        "evil": 10,
-        "selflessness": 85,
-        "ambition": 40,
-        "combat_skill": 85,
-        "political_cunning": 75,
-        "religious_devotion": 60
-      },
-      "relationships": [
-        {
-          "npc_id": "tully_001",
-          "relationship_type": "brother",
-          "strength": 85
-        },
-        {
-          "npc_id": "stark_002",
-          "relationship_type": "niece",
-          "strength": 80
-        }
-      ],
-      "current_behavior": "Advising family with experience and pragmatism",
-      "location": "Riverrun",
-      "status": "alive"
-    },
-    {
-      "id": "tully_004",
-      "name": "Lysa Arryn",
-      "house": "House Tully",
-      "age": 30,
-      "gender": "female",
-      "role": "lady",
-      "traits": {
-        "honor": 60,
-        "loyalty": 70,
-        "intelligence": 55,
-        "emotional_intelligence": 40,
-        "evil": 35,
-        "selflessness": 50,
-        "ambition": 60,
-        "combat_skill": 15,
-        "political_cunning": 55,
-        "religious_devotion": 65
-      },
-      "relationships": [
-        {
-          "npc_id": "tully_001",
-          "relationship_type": "father",
-          "strength": 70
-        },
-        {
-          "npc_id": "stark_002",
-          "relationship_type": "sister",
-          "strength": 75
-        }
-      ],
-      "current_behavior": "Ruling the Vale with paranoia and overprotection",
-      "location": "The Eyrie",
-      "status": "alive"
-    },
-    {
-      "id": "tyrell_001",
-      "name": "Mace Tyrell",
-      "house": "House Tyrell",
-      "age": 42,
-      "gender": "male",
-      "role": "lord",
-      "traits": {
-        "honor": 70,
-        "loyalty": 75,
-        "intelligence": 50,
-        "emotional_intelligence": 60,
-        "evil": 20,
-        "selflessness": 65,
-        "ambition": 60,
-        "combat_skill": 55,
-        "political_cunning": 45,
-        "religious_devotion": 60
-      },
-      "relationships": [
-        {
-          "npc_id": "tyrell_002",
-          "relationship_type": "daughter",
-          "strength": 85
-        },
-        {
-          "npc_id": "tyrell_003",
-          "relationship_type": "son",
-          "strength": 80
-        }
-      ],
-      "current_behavior": "Managing Highgarden with pompous good intentions",
-      "location": "Highgarden",
-      "status": "alive"
-    },
-    {
       "id": "tyrell_002",
       "name": "Margaery Tyrell",
       "house": "House Tyrell",
@@ -934,11 +778,7 @@
         "religious_devotion": 50
       },
       "relationships": [
-        {
-          "npc_id": "tyrell_001",
-          "relationship_type": "father",
-          "strength": 85
-        },
+
         {
           "npc_id": "baratheon_003",
           "relationship_type": "husband",

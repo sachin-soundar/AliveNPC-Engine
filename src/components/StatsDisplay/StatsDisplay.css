@@ -1,0 +1,47 @@
+.stats-display {
+  background: rgba(15, 52, 96, 0.3);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #0f3460;
+}
+
+.stat-group {
+  margin-bottom: 0.5rem;
+  color: #f0f0f0;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.stat-group strong {
+  color: #e94560;
+  margin-right: 0.5rem;
+}
+
+.rate-limit-status {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.rate-limit-ok {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.rate-limit-warning {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.rate-limit-error {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.rate-limit-message {
+  color: #f44336;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
